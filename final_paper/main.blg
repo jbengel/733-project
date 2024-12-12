@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2024 - Flatpak)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+Database file #1: main.bib
+Warning--entry type for "ranker2024" isn't style-file defined
+--line 101 of file main.bib
+You've used 7 entries,
+            1935 wiz_defined-function locations,
+            509 strings with 5461 characters,
+and the built_in function-call counts, 3325 in all, are:
+= -- 325
+> -- 159
+< -- 7
++ -- 62
+- -- 56
+* -- 261
+:= -- 556
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 62
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 136
+empty$ -- 219
+format.name$ -- 67
+if$ -- 671
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 37
+num.names$ -- 21
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 62
+quote$ -- 0
+skip$ -- 105
+stack$ -- 0
+substring$ -- 205
+swap$ -- 33
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 0
+while$ -- 25
+width$ -- 0
+write$ -- 90
+(There was 1 warning)

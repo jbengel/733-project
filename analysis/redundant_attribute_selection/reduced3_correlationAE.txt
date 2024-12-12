@@ -1,0 +1,219 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     reduced3-weka.filters.unsupervised.attribute.Remove-R2-3
+Instances:    1846
+Attributes:   98
+              Artist
+              lowlevel.spectral_centroid.dmean
+              lowlevel.spectral_centroid.dmean2
+              lowlevel.spectral_contrast_coeffs.dvar.5
+              tonal.hpcp.dvar2.18
+              lowlevel.spectral_contrast_coeffs.dvar2.5
+              tonal.hpcp.dvar2.17
+              lowlevel.spectral_contrast_coeffs.dvar2.3
+              lowlevel.barkbands_spread.dvar2
+              tonal.hpcp.median.19
+              tonal.hpcp.var.30
+              lowlevel.spectral_contrast_coeffs.dmean.5
+              tonal.hpcp.dvar2.7
+              tonal.hpcp.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.1
+              lowlevel.spectral_contrast_coeffs.dmean2.5
+              lowlevel.erbbands.median.4
+              tonal.hpcp.median.18
+              lowlevel.spectral_contrast_coeffs.dmean2.3
+              tonal.hpcp.var.1
+              tonal.hpcp.dvar.18
+              tonal.hpcp.dvar2.12
+              tonal.hpcp.dvar2.28
+              tonal.hpcp.median.13
+              lowlevel.spectral_contrast_coeffs.dvar2.4
+              lowlevel.melbands.var.13
+              lowlevel.erbbands.median.2
+              lowlevel.melbands.var.25
+              tonal.hpcp.dvar2.10
+              lowlevel.erbbands_flatness_db.dvar
+              tonal.hpcp.dvar2.23
+              tonal.hpcp.median.9
+              tonal.hpcp.dvar2.13
+              lowlevel.gfcc.icov.5.5
+              lowlevel.gfcc.cov.8.8
+              tonal.hpcp.median.34
+              tonal.hpcp.median.10
+              tonal.hpcp.dvar2.33
+              lowlevel.spectral_centroid.dvar
+              lowlevel.spectral_contrast_coeffs.dmean2.2
+              lowlevel.melbands.var.27
+              lowlevel.melbands.var.19
+              lowlevel.spectral_contrast_coeffs.dmean.1
+              lowlevel.spectral_contrast_coeffs.dmean2.4
+              lowlevel.barkbands_skewness.var
+              lowlevel.spectral_spread.dmean2
+              tonal.hpcp.dvar2.8
+              tonal.hpcp.median.27
+              tonal.hpcp.dvar2.9
+              lowlevel.spectral_contrast_coeffs.median.3
+              lowlevel.barkbands.var.15
+              tonal.hpcp.dvar2.35
+              tonal.hpcp.var.27
+              lowlevel.erbbands_spread.dvar2
+              tonal.hpcp.median.0
+              lowlevel.barkbands_kurtosis.median
+              lowlevel.barkbands.var.13
+              tonal.hpcp.dvar2.26
+              tonal.hpcp.median.31
+              lowlevel.barkbands.var.6
+              tonal.hpcp.var.3
+              lowlevel.silence_rate_60dB.var
+              lowlevel.spectral_centroid.dvar2
+              tonal.hpcp.var.10
+              lowlevel.erbbands_flatness_db.dvar2
+              lowlevel.melbands.var.31
+              tonal.hpcp.median.3
+              lowlevel.barkbands.median.10
+              tonal.hpcp.var.33
+              lowlevel.pitch_salience.dvar2
+              lowlevel.melbands.median.1
+              tonal.hpcp.dvar2.6
+              tonal.hpcp.var.9
+              tonal.hpcp.median.12
+              lowlevel.mfcc.cov.0.0
+              lowlevel.erbbands.var.6
+              tonal.hpcp.var.6
+              lowlevel.erbbands.median.0
+              tonal.hpcp.dvar.25
+              tonal.hpcp.dvar2.0
+              lowlevel.mfcc.cov.3.3
+              tonal.hpcp.var.0
+              lowlevel.erbbands.max.7
+              tonal.hpcp.var.7
+              lowlevel.gfcc.cov.6.6
+              tonal.hpcp.dvar2.21
+              tonal.hpcp.median.15
+              lowlevel.spectral_contrast_coeffs.dmean.4
+              lowlevel.melbands.var.20
+              lowlevel.melbands_kurtosis.median
+              lowlevel.spectral_contrast_coeffs.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.2
+              lowlevel.barkbands.var.18
+              tonal.hpcp.dvar.23
+              lowlevel.gfcc.mean.10
+              lowlevel.spectral_contrast_coeffs.dmean2.1
+              tonal.hpcp.median.30
+              tonal.hpcp.var.12
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 1 Artist):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.1231    17 lowlevel.erbbands.median.4
+ 0.1145    85 lowlevel.gfcc.cov.6.6
+ 0.1061    35 lowlevel.gfcc.cov.8.8
+ 0.1054    81 lowlevel.mfcc.cov.3.3
+ 0.0961    34 lowlevel.gfcc.icov.5.5
+ 0.096     12 lowlevel.spectral_contrast_coeffs.dmean.5
+ 0.0957    27 lowlevel.erbbands.median.2
+ 0.095     91 lowlevel.spectral_contrast_coeffs.median.1
+ 0.0946    96 lowlevel.spectral_contrast_coeffs.dmean2.1
+ 0.0943    47 tonal.hpcp.dvar2.8
+
+ 0.0931     7 tonal.hpcp.dvar2.17
+ 0.0915    54 lowlevel.erbbands_spread.dvar2
+ 0.0914    56 lowlevel.barkbands_kurtosis.median
+ 0.0901     3 lowlevel.spectral_centroid.dmean2
+ 0.0889     2 lowlevel.spectral_centroid.dmean
+ 0.0887    58 tonal.hpcp.dvar2.26
+ 0.0885    90 lowlevel.melbands_kurtosis.median
+ 0.088     16 lowlevel.spectral_contrast_coeffs.dmean2.5
+ 0.0874     5 tonal.hpcp.dvar2.18
+ 0.0872     9 lowlevel.barkbands_spread.dvar2
+ 0.087     70 lowlevel.pitch_salience.dvar2
+ 0.0867    50 lowlevel.spectral_contrast_coeffs.median.3
+ 0.0867    41 lowlevel.melbands.var.27
+ 0.0867     4 lowlevel.spectral_contrast_coeffs.dvar.5
+ 0.0862    43 lowlevel.spectral_contrast_coeffs.dmean.1
+ 0.086     49 tonal.hpcp.dvar2.9
+ 0.0847    68 lowlevel.barkbands.median.10
+ 0.0826    86 tonal.hpcp.dvar2.21
+ 0.0817    23 tonal.hpcp.dvar2.28
+ 0.0803    22 tonal.hpcp.dvar2.12
+ 0.0803    13 tonal.hpcp.dvar2.7
+ 0.0801    72 tonal.hpcp.dvar2.6
+ 0.0799    29 tonal.hpcp.dvar2.10
+ 0.0789    31 tonal.hpcp.dvar2.23
+ 0.0785    30 lowlevel.erbbands_flatness_db.dvar
+ 0.0782    71 lowlevel.melbands.median.1
+ 0.0779     6 lowlevel.spectral_contrast_coeffs.dvar2.5
+ 0.0775    33 tonal.hpcp.dvar2.13
+ 0.0767    21 tonal.hpcp.dvar.18
+ 0.0765    94 tonal.hpcp.dvar.23
+ 0.075     62 lowlevel.silence_rate_60dB.var
+ 0.0742    40 lowlevel.spectral_contrast_coeffs.dmean2.2
+ 0.073     66 lowlevel.melbands.var.31
+ 0.0723    65 lowlevel.erbbands_flatness_db.dvar2
+ 0.0718    15 lowlevel.spectral_contrast_valleys.dvar2.1
+ 0.0712    78 lowlevel.erbbands.median.0
+ 0.0709    75 lowlevel.mfcc.cov.0.0
+ 0.0708    39 lowlevel.spectral_centroid.dvar
+ 0.0657    92 lowlevel.spectral_contrast_valleys.dvar2.2
+ 0.0653    79 tonal.hpcp.dvar.25
+ 0.0631    63 lowlevel.spectral_centroid.dvar2
+ 0.0628     8 lowlevel.spectral_contrast_coeffs.dvar2.3
+ 0.0623    51 lowlevel.barkbands.var.15
+ 0.0616    77 tonal.hpcp.var.6
+ 0.061     89 lowlevel.melbands.var.20
+ 0.0608    19 lowlevel.spectral_contrast_coeffs.dmean2.3
+ 0.0608    42 lowlevel.melbands.var.19
+ 0.0587    93 lowlevel.barkbands.var.18
+ 0.0585    52 tonal.hpcp.dvar2.35
+ 0.0576    57 lowlevel.barkbands.var.13
+ 0.0561    80 tonal.hpcp.dvar2.0
+ 0.0559    38 tonal.hpcp.dvar2.33
+ 0.0558    95 lowlevel.gfcc.mean.10
+ 0.0555    53 tonal.hpcp.var.27
+ 0.0552    28 lowlevel.melbands.var.25
+ 0.0551    46 lowlevel.spectral_spread.dmean2
+ 0.054     60 lowlevel.barkbands.var.6
+ 0.0539    26 lowlevel.melbands.var.13
+ 0.0538    88 lowlevel.spectral_contrast_coeffs.dmean.4
+ 0.0528    25 lowlevel.spectral_contrast_coeffs.dvar2.4
+ 0.052     18 tonal.hpcp.median.18
+ 0.0518    10 tonal.hpcp.median.19
+ 0.0503    64 tonal.hpcp.var.10
+ 0.0503    44 lowlevel.spectral_contrast_coeffs.dmean2.4
+ 0.0493    32 tonal.hpcp.median.9
+ 0.0479    37 tonal.hpcp.median.10
+ 0.0476    48 tonal.hpcp.median.27
+ 0.0472    11 tonal.hpcp.var.30
+ 0.0469    36 tonal.hpcp.median.34
+ 0.0462    74 tonal.hpcp.median.12
+ 0.0459    24 tonal.hpcp.median.13
+ 0.0459    76 lowlevel.erbbands.var.6
+ 0.0456    45 lowlevel.barkbands_skewness.var
+ 0.0444    98 tonal.hpcp.var.12
+ 0.0435    87 tonal.hpcp.median.15
+ 0.0433    97 tonal.hpcp.median.30
+ 0.0432    14 tonal.hpcp.median.1
+ 0.0422    55 tonal.hpcp.median.0
+ 0.0414    59 tonal.hpcp.median.31
+ 0.0393    84 tonal.hpcp.var.7
+ 0.0393    73 tonal.hpcp.var.9
+ 0.0392    67 tonal.hpcp.median.3
+ 0.0392    20 tonal.hpcp.var.1
+ 0.0378    83 lowlevel.erbbands.max.7
+ 0.0342    82 tonal.hpcp.var.0
+ 0.0333    69 tonal.hpcp.var.33
+ 0.0309    61 tonal.hpcp.var.3
+
+Selected attributes: 17,85,35,81,34,12,27,91,96,47,7,54,56,3,2,58,90,16,5,9,70,50,41,4,43,49,68,86,23,22,13,72,29,31,30,71,6,33,21,94,62,40,66,65,15,78,75,39,92,79,63,8,51,77,89,19,42,93,52,57,80,38,95,53,28,46,60,26,88,25,18,10,64,44,32,37,48,11,36,74,24,76,45,98,87,97,14,55,59,84,73,67,20,83,82,69,61 : 97
+
+

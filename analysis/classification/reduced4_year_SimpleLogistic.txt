@@ -1,0 +1,768 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     reduced4-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    1846
+Attributes:   98
+              upload_year
+              lowlevel.spectral_centroid.dmean
+              lowlevel.spectral_centroid.dmean2
+              lowlevel.spectral_contrast_coeffs.dvar.5
+              tonal.hpcp.dvar2.18
+              lowlevel.spectral_contrast_coeffs.dvar2.5
+              tonal.hpcp.dvar2.17
+              lowlevel.spectral_contrast_coeffs.dvar2.3
+              lowlevel.barkbands_spread.dvar2
+              tonal.hpcp.median.19
+              tonal.hpcp.var.30
+              lowlevel.spectral_contrast_coeffs.dmean.5
+              tonal.hpcp.dvar2.7
+              tonal.hpcp.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.1
+              lowlevel.spectral_contrast_coeffs.dmean2.5
+              lowlevel.erbbands.median.4
+              tonal.hpcp.median.18
+              lowlevel.spectral_contrast_coeffs.dmean2.3
+              tonal.hpcp.var.1
+              tonal.hpcp.dvar.18
+              tonal.hpcp.dvar2.12
+              tonal.hpcp.dvar2.28
+              tonal.hpcp.median.13
+              lowlevel.spectral_contrast_coeffs.dvar2.4
+              lowlevel.melbands.var.13
+              lowlevel.erbbands.median.2
+              lowlevel.melbands.var.25
+              tonal.hpcp.dvar2.10
+              lowlevel.erbbands_flatness_db.dvar
+              tonal.hpcp.dvar2.23
+              tonal.hpcp.median.9
+              tonal.hpcp.dvar2.13
+              lowlevel.gfcc.icov.5.5
+              lowlevel.gfcc.cov.8.8
+              tonal.hpcp.median.34
+              tonal.hpcp.median.10
+              tonal.hpcp.dvar2.33
+              lowlevel.spectral_centroid.dvar
+              lowlevel.spectral_contrast_coeffs.dmean2.2
+              lowlevel.melbands.var.27
+              lowlevel.melbands.var.19
+              lowlevel.spectral_contrast_coeffs.dmean.1
+              lowlevel.spectral_contrast_coeffs.dmean2.4
+              lowlevel.barkbands_skewness.var
+              lowlevel.spectral_spread.dmean2
+              tonal.hpcp.dvar2.8
+              tonal.hpcp.median.27
+              tonal.hpcp.dvar2.9
+              lowlevel.spectral_contrast_coeffs.median.3
+              lowlevel.barkbands.var.15
+              tonal.hpcp.dvar2.35
+              tonal.hpcp.var.27
+              lowlevel.erbbands_spread.dvar2
+              tonal.hpcp.median.0
+              lowlevel.barkbands_kurtosis.median
+              lowlevel.barkbands.var.13
+              tonal.hpcp.dvar2.26
+              tonal.hpcp.median.31
+              lowlevel.barkbands.var.6
+              tonal.hpcp.var.3
+              lowlevel.silence_rate_60dB.var
+              lowlevel.spectral_centroid.dvar2
+              tonal.hpcp.var.10
+              lowlevel.erbbands_flatness_db.dvar2
+              lowlevel.melbands.var.31
+              tonal.hpcp.median.3
+              lowlevel.barkbands.median.10
+              tonal.hpcp.var.33
+              lowlevel.pitch_salience.dvar2
+              lowlevel.melbands.median.1
+              tonal.hpcp.dvar2.6
+              tonal.hpcp.var.9
+              tonal.hpcp.median.12
+              lowlevel.mfcc.cov.0.0
+              lowlevel.erbbands.var.6
+              tonal.hpcp.var.6
+              lowlevel.erbbands.median.0
+              tonal.hpcp.dvar.25
+              tonal.hpcp.dvar2.0
+              lowlevel.mfcc.cov.3.3
+              tonal.hpcp.var.0
+              lowlevel.erbbands.max.7
+              tonal.hpcp.var.7
+              lowlevel.gfcc.cov.6.6
+              tonal.hpcp.dvar2.21
+              tonal.hpcp.median.15
+              lowlevel.spectral_contrast_coeffs.dmean.4
+              lowlevel.melbands.var.20
+              lowlevel.melbands_kurtosis.median
+              lowlevel.spectral_contrast_coeffs.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.2
+              lowlevel.barkbands.var.18
+              tonal.hpcp.dvar.23
+              lowlevel.gfcc.mean.10
+              lowlevel.spectral_contrast_coeffs.dmean2.1
+              tonal.hpcp.median.30
+              tonal.hpcp.var.12
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class a2010 :
+23.75 +
+[lowlevel.spectral_centroid.dmean] * 0.01 +
+[lowlevel.spectral_contrast_coeffs.dvar2.5] * -988.85 +
+[lowlevel.spectral_contrast_coeffs.dvar2.3] * -344.42 +
+[tonal.hpcp.median.19] * -9.08 +
+[tonal.hpcp.var.30] * -4.42 +
+[lowlevel.spectral_contrast_coeffs.dmean.5] * 54.65 +
+[tonal.hpcp.dvar2.7] * 3.35 +
+[tonal.hpcp.dvar2.28] * 13.53 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * -477.64 +
+[lowlevel.erbbands.median.2] * 0.13 +
+[lowlevel.gfcc.icov.5.5] * -121.56 +
+[tonal.hpcp.dvar2.33] * -6.86 +
+[lowlevel.melbands.var.27] * 763876985.87 +
+[lowlevel.melbands.var.19] * -198226092.3 +
+[lowlevel.spectral_contrast_coeffs.dmean.1] * 90.88 +
+[tonal.hpcp.dvar2.8] * -7.15 +
+[lowlevel.spectral_contrast_coeffs.median.3] * 22.77 +
+[lowlevel.erbbands_spread.dvar2] * -0 +
+[tonal.hpcp.median.0] * 3.94 +
+[tonal.hpcp.dvar2.26] * 14.18 +
+[lowlevel.barkbands.var.6] * -42546.75 +
+[tonal.hpcp.var.3] * 20.79 +
+[lowlevel.melbands.var.31] * 1228784718.79 +
+[lowlevel.barkbands.median.10] * -1546.03 +
+[tonal.hpcp.var.33] * 11.02 +
+[lowlevel.pitch_salience.dvar2] * -36.01 +
+[tonal.hpcp.dvar2.6] * 8.47 +
+[tonal.hpcp.dvar.25] * -14.05 +
+[tonal.hpcp.var.7] * -13.53 +
+[lowlevel.gfcc.cov.6.6] * -0.01 +
+[lowlevel.spectral_contrast_coeffs.median.1] * 15.6 +
+[tonal.hpcp.var.12] * -15.02
+
+Class 2011 :
+-17.82 +
+[lowlevel.spectral_centroid.dmean] * 0    +
+[tonal.hpcp.dvar2.17] * 4.98 +
+[tonal.hpcp.var.30] * -5.09 +
+[tonal.hpcp.dvar2.7] * 4.21 +
+[lowlevel.spectral_contrast_valleys.dvar2.1] * 0.63 +
+[lowlevel.erbbands.median.4] * 0.14 +
+[tonal.hpcp.dvar.18] * 8.98 +
+[tonal.hpcp.median.13] * -3.28 +
+[lowlevel.erbbands_flatness_db.dvar] * 714.55 +
+[tonal.hpcp.median.9] * -29.12 +
+[tonal.hpcp.median.34] * 5.36 +
+[tonal.hpcp.dvar2.33] * 3.45 +
+[lowlevel.melbands.var.27] * 605547929.17 +
+[lowlevel.spectral_spread.dmean2] * 0    +
+[tonal.hpcp.dvar2.9] * -8.74 +
+[tonal.hpcp.var.27] * -25.72 +
+[lowlevel.erbbands_spread.dvar2] * -0 +
+[tonal.hpcp.median.0] * 4.71 +
+[lowlevel.barkbands.var.13] * 103643.24 +
+[tonal.hpcp.dvar2.26] * 3.81 +
+[lowlevel.barkbands.var.6] * 20170.66 +
+[tonal.hpcp.var.3] * -19.69 +
+[tonal.hpcp.var.10] * 7.63 +
+[lowlevel.melbands.var.31] * -982375677.78 +
+[lowlevel.pitch_salience.dvar2] * -116.41 +
+[lowlevel.melbands.median.1] * 181.99 +
+[tonal.hpcp.dvar2.6] * 14.83 +
+[lowlevel.mfcc.cov.0.0] * -0 +
+[lowlevel.erbbands.var.6] * 0    +
+[tonal.hpcp.dvar.25] * 32.23 +
+[tonal.hpcp.var.0] * 4.77 +
+[tonal.hpcp.var.7] * -7.21 +
+[lowlevel.gfcc.cov.6.6] * -0 +
+[tonal.hpcp.median.15] * 7.78 +
+[lowlevel.melbands_kurtosis.median] * 0.02 +
+[lowlevel.spectral_contrast_coeffs.median.1] * -12.25 +
+[tonal.hpcp.dvar.23] * 25.77 +
+[lowlevel.gfcc.mean.10] * -0.21 +
+[tonal.hpcp.median.30] * -10.19
+
+Class 2012 :
+-20.19 +
+[tonal.hpcp.dvar2.17] * -7.15 +
+[lowlevel.spectral_contrast_coeffs.dvar2.3] * -470.13 +
+[lowlevel.barkbands_spread.dvar2] * 0    +
+[tonal.hpcp.var.30] * 2.55 +
+[lowlevel.spectral_contrast_valleys.dvar2.1] * 0.38 +
+[tonal.hpcp.median.18] * -2.91 +
+[lowlevel.spectral_contrast_coeffs.dmean2.3] * -27.25 +
+[tonal.hpcp.dvar2.28] * -7.79 +
+[tonal.hpcp.median.13] * 2.22 +
+[tonal.hpcp.median.9] * 5.12 +
+[lowlevel.gfcc.icov.5.5] * 92.29 +
+[lowlevel.gfcc.cov.8.8] * -0.01 +
+[lowlevel.barkbands_skewness.var] * 0.03 +
+[tonal.hpcp.median.27] * -7.92 +
+[tonal.hpcp.dvar2.9] * 6.32 +
+[lowlevel.spectral_contrast_coeffs.median.3] * -16.43 +
+[lowlevel.erbbands_spread.dvar2] * -0 +
+[lowlevel.barkbands_kurtosis.median] * -0.03 +
+[tonal.hpcp.median.31] * 3.11 +
+[lowlevel.silence_rate_60dB.var] * 5.13 +
+[tonal.hpcp.median.3] * 2.03 +
+[tonal.hpcp.var.33] * 7.28 +
+[lowlevel.pitch_salience.dvar2] * -111.87 +
+[lowlevel.mfcc.cov.0.0] * 0    +
+[lowlevel.erbbands.var.6] * -0 +
+[tonal.hpcp.var.6] * 12.44 +
+[lowlevel.erbbands.median.0] * -0.9 +
+[tonal.hpcp.dvar.25] * 7.4  +
+[tonal.hpcp.dvar2.0] * 4.19 +
+[lowlevel.mfcc.cov.3.3] * -0 +
+[lowlevel.erbbands.max.7] * 0    +
+[tonal.hpcp.var.7] * 3.43 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * 182.92 +
+[lowlevel.melbands.var.20] * -43864514.62 +
+[lowlevel.barkbands.var.18] * -680824.03 +
+[tonal.hpcp.dvar.23] * 11.25 +
+[lowlevel.gfcc.mean.10] * -0.04 +
+[lowlevel.spectral_contrast_coeffs.dmean2.1] * 40.57
+
+Class 2013 :
+-2.53 +
+[lowlevel.spectral_centroid.dmean] * 0    +
+[lowlevel.spectral_contrast_coeffs.dvar2.5] * 196.95 +
+[tonal.hpcp.dvar2.17] * 3.19 +
+[tonal.hpcp.median.19] * -2.34 +
+[tonal.hpcp.var.30] * -4.54 +
+[lowlevel.erbbands.median.4] * -0.03 +
+[tonal.hpcp.median.18] * -1.32 +
+[tonal.hpcp.median.13] * -11.35 +
+[lowlevel.melbands.var.13] * -1697107.94 +
+[lowlevel.erbbands_flatness_db.dvar] * 480.16 +
+[tonal.hpcp.dvar2.13] * -1.61 +
+[lowlevel.gfcc.icov.5.5] * 23.41 +
+[tonal.hpcp.dvar2.33] * 1.09 +
+[lowlevel.melbands.var.19] * -22738779.27 +
+[lowlevel.spectral_contrast_coeffs.dmean.1] * 43.28 +
+[lowlevel.barkbands_skewness.var] * 0.02 +
+[lowlevel.spectral_contrast_coeffs.median.3] * -4.34 +
+[tonal.hpcp.dvar2.35] * 2.03 +
+[lowlevel.erbbands_spread.dvar2] * 0    +
+[lowlevel.melbands.var.31] * -717186005.92 +
+[tonal.hpcp.median.3] * -1.53 +
+[lowlevel.barkbands.median.10] * -1524.46 +
+[lowlevel.pitch_salience.dvar2] * -112.64 +
+[lowlevel.mfcc.cov.0.0] * -0 +
+[lowlevel.erbbands.median.0] * -0.5 +
+[tonal.hpcp.dvar.25] * -14.78 +
+[lowlevel.mfcc.cov.3.3] * -0 +
+[lowlevel.gfcc.cov.6.6] * -0 +
+[tonal.hpcp.dvar2.21] * -2.34 +
+[tonal.hpcp.median.15] * -1.68 +
+[lowlevel.melbands_kurtosis.median] * 0.05 +
+[lowlevel.spectral_contrast_valleys.dvar2.2] * -0.5 +
+[tonal.hpcp.dvar.23] * -15.88 +
+[lowlevel.gfcc.mean.10] * -0.09 +
+[tonal.hpcp.median.30] * -1.22
+
+Class 2014 :
+0.43 +
+[lowlevel.barkbands_spread.dvar2] * 0    +
+[tonal.hpcp.median.19] * -8.31 +
+[tonal.hpcp.var.30] * 1.6  +
+[tonal.hpcp.median.1] * -2.04 +
+[lowlevel.spectral_contrast_valleys.dvar2.1] * -0.26 +
+[lowlevel.spectral_contrast_coeffs.dmean2.5] * -66.91 +
+[lowlevel.erbbands.median.4] * 0.06 +
+[tonal.hpcp.var.1] * -1.6 +
+[tonal.hpcp.dvar2.12] * -1.9 +
+[tonal.hpcp.dvar2.28] * 2.36 +
+[tonal.hpcp.median.13] * -6.22 +
+[lowlevel.gfcc.cov.8.8] * 0    +
+[tonal.hpcp.median.34] * 1.44 +
+[tonal.hpcp.median.10] * -2.84 +
+[lowlevel.barkbands_skewness.var] * 0.02 +
+[tonal.hpcp.dvar2.8] * 1.38 +
+[tonal.hpcp.dvar2.9] * 2.38 +
+[lowlevel.spectral_contrast_coeffs.median.3] * -3.66 +
+[tonal.hpcp.dvar2.35] * 7.39 +
+[lowlevel.erbbands_spread.dvar2] * 0    +
+[lowlevel.barkbands.var.13] * 33919.44 +
+[tonal.hpcp.median.31] * -1.4 +
+[lowlevel.barkbands.var.6] * -20314.22 +
+[tonal.hpcp.var.3] * -2.94 +
+[lowlevel.spectral_centroid.dvar2] * 0    +
+[tonal.hpcp.median.3] * -3.85 +
+[lowlevel.barkbands.median.10] * -663.53 +
+[tonal.hpcp.var.33] * -2.02 +
+[lowlevel.pitch_salience.dvar2] * -72.87 +
+[tonal.hpcp.dvar2.6] * -1.8 +
+[tonal.hpcp.var.9] * 4.96 +
+[lowlevel.erbbands.var.6] * 0    +
+[tonal.hpcp.var.6] * -2.8 +
+[lowlevel.erbbands.median.0] * -0.16 +
+[lowlevel.mfcc.cov.3.3] * -0 +
+[lowlevel.erbbands.max.7] * 0    +
+[tonal.hpcp.median.15] * -1.11 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * 23.2 +
+[lowlevel.spectral_contrast_coeffs.median.1] * 1.82 +
+[lowlevel.barkbands.var.18] * -456724.43 +
+[lowlevel.gfcc.mean.10] * -0.03
+
+Class 2015 :
+-0.71 +
+[lowlevel.spectral_centroid.dmean] * 0    +
+[tonal.hpcp.dvar2.18] * -2.68 +
+[tonal.hpcp.var.30] * -2.45 +
+[lowlevel.spectral_contrast_coeffs.dmean2.5] * -39.45 +
+[lowlevel.erbbands.median.4] * 0.14 +
+[lowlevel.spectral_contrast_coeffs.dmean2.3] * 14.5 +
+[tonal.hpcp.dvar2.28] * 2.32 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * -162.71 +
+[tonal.hpcp.dvar2.10] * -4.71 +
+[tonal.hpcp.median.9] * 1.91 +
+[tonal.hpcp.dvar2.13] * 1.37 +
+[lowlevel.gfcc.icov.5.5] * 28.97 +
+[tonal.hpcp.dvar2.33] * 2.42 +
+[lowlevel.spectral_centroid.dvar] * 0    +
+[lowlevel.spectral_contrast_coeffs.dmean2.2] * -13.83 +
+[lowlevel.melbands.var.27] * 618950767.55 +
+[lowlevel.barkbands_skewness.var] * 0.02 +
+[tonal.hpcp.median.27] * 1.74 +
+[lowlevel.barkbands.var.15] * 179335.57 +
+[tonal.hpcp.dvar2.35] * 1.61 +
+[tonal.hpcp.var.27] * 1.83 +
+[lowlevel.erbbands_spread.dvar2] * 0    +
+[tonal.hpcp.dvar2.26] * 3.15 +
+[lowlevel.silence_rate_60dB.var] * 3.71 +
+[lowlevel.barkbands.median.10] * -1412.7 +
+[tonal.hpcp.var.33] * 9.09 +
+[tonal.hpcp.var.9] * 4.73 +
+[tonal.hpcp.median.12] * -1.85 +
+[tonal.hpcp.var.6] * -2.65 +
+[lowlevel.erbbands.max.7] * 0    +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * 88.82 +
+[lowlevel.melbands_kurtosis.median] * 0.01 +
+[tonal.hpcp.dvar.23] * -17.23 +
+[lowlevel.gfcc.mean.10] * -0.06 +
+[lowlevel.spectral_contrast_coeffs.dmean2.1] * -28.86 +
+[tonal.hpcp.median.30] * -2.69 +
+[tonal.hpcp.var.12] * -7.16
+
+Class 2016 :
+-2.46 +
+[lowlevel.barkbands_spread.dvar2] * 0    +
+[lowlevel.spectral_contrast_coeffs.dmean.5] * 14.52 +
+[tonal.hpcp.dvar2.7] * -2.12 +
+[tonal.hpcp.median.18] * -2.64 +
+[lowlevel.spectral_contrast_coeffs.dmean2.3] * 10.86 +
+[tonal.hpcp.var.1] * 3.09 +
+[tonal.hpcp.dvar2.28] * 1.87 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * -1201.13 +
+[lowlevel.melbands.var.13] * 2326954.61 +
+[lowlevel.erbbands.median.2] * -0.09 +
+[lowlevel.melbands.var.25] * -202206398.91 +
+[tonal.hpcp.dvar2.10] * -1.79 +
+[tonal.hpcp.dvar2.23] * 2.55 +
+[tonal.hpcp.median.9] * -2.71 +
+[tonal.hpcp.dvar2.13] * -2.26 +
+[lowlevel.gfcc.icov.5.5] * -32.06 +
+[lowlevel.gfcc.cov.8.8] * 0    +
+[tonal.hpcp.dvar2.33] * 2.96 +
+[lowlevel.spectral_contrast_coeffs.dmean.1] * 43.43 +
+[lowlevel.barkbands_skewness.var] * -0.01 +
+[tonal.hpcp.var.27] * -4.03 +
+[tonal.hpcp.median.0] * -0.92 +
+[tonal.hpcp.dvar2.26] * 2.06 +
+[lowlevel.barkbands.var.6] * -6077.93 +
+[tonal.hpcp.var.3] * 11.12 +
+[lowlevel.erbbands_flatness_db.dvar2] * -245.86 +
+[tonal.hpcp.median.3] * -1.71 +
+[lowlevel.pitch_salience.dvar2] * 15.64 +
+[lowlevel.melbands.median.1] * -83.71 +
+[tonal.hpcp.var.9] * 3.85 +
+[lowlevel.mfcc.cov.0.0] * -0 +
+[lowlevel.erbbands.median.0] * 0.14 +
+[lowlevel.mfcc.cov.3.3] * -0 +
+[tonal.hpcp.var.0] * 1.27 +
+[lowlevel.erbbands.max.7] * -0 +
+[tonal.hpcp.dvar2.21] * 5.14 +
+[tonal.hpcp.median.15] * -6.98 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * 20.78 +
+[lowlevel.melbands.var.20] * 55643847.15 +
+[lowlevel.spectral_contrast_valleys.dvar2.2] * -0.35 +
+[lowlevel.gfcc.mean.10] * 0.02 +
+[tonal.hpcp.var.12] * 3.68
+
+Class 2017 :
+-3.88 +
+[lowlevel.spectral_centroid.dmean2] * -0 +
+[lowlevel.spectral_contrast_coeffs.dvar.5] * -494.45 +
+[tonal.hpcp.dvar2.17] * -6.45 +
+[lowlevel.spectral_contrast_coeffs.dvar2.3] * -166.2 +
+[lowlevel.barkbands_spread.dvar2] * 0    +
+[tonal.hpcp.median.19] * -1.25 +
+[tonal.hpcp.dvar2.7] * -2.73 +
+[tonal.hpcp.median.1] * -1.33 +
+[lowlevel.spectral_contrast_coeffs.dmean2.5] * 11.97 +
+[tonal.hpcp.median.18] * 7.72 +
+[tonal.hpcp.var.1] * 9.51 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * -1085.58 +
+[lowlevel.melbands.var.13] * -1110017.68 +
+[lowlevel.erbbands.median.2] * -0.11 +
+[lowlevel.erbbands_flatness_db.dvar] * -169.73 +
+[tonal.hpcp.median.9] * -3.34 +
+[lowlevel.gfcc.icov.5.5] * -104.95 +
+[tonal.hpcp.dvar2.33] * 3.15 +
+[lowlevel.melbands.var.19] * 10799891.01 +
+[lowlevel.spectral_contrast_coeffs.dmean.1] * 110.41 +
+[tonal.hpcp.dvar2.35] * -3.01 +
+[tonal.hpcp.var.27] * 1.95 +
+[lowlevel.erbbands_spread.dvar2] * 0    +
+[lowlevel.barkbands_kurtosis.median] * 0.07 +
+[tonal.hpcp.var.3] * -4.97 +
+[tonal.hpcp.var.10] * 2.15 +
+[lowlevel.melbands.var.31] * 484936452.46 +
+[tonal.hpcp.var.33] * -4.55 +
+[tonal.hpcp.median.12] * 2.17 +
+[lowlevel.erbbands.var.6] * -0 +
+[lowlevel.erbbands.median.0] * -0.44 +
+[tonal.hpcp.dvar2.0] * -4.34 +
+[lowlevel.mfcc.cov.3.3] * -0 +
+[tonal.hpcp.var.0] * 3.3  +
+[lowlevel.erbbands.max.7] * 0    +
+[tonal.hpcp.median.15] * 1.27 +
+[lowlevel.melbands_kurtosis.median] * 0.01 +
+[lowlevel.spectral_contrast_coeffs.median.1] * -2.4 +
+[lowlevel.gfcc.mean.10] * 0.02
+
+Class 2018 :
+-0.85 +
+[tonal.hpcp.dvar2.18] * -1.4 +
+[lowlevel.spectral_contrast_coeffs.dvar2.5] * -986.55 +
+[tonal.hpcp.dvar2.17] * -3.58 +
+[lowlevel.spectral_contrast_coeffs.dvar2.3] * -360.2 +
+[lowlevel.barkbands_spread.dvar2] * -0 +
+[tonal.hpcp.median.19] * -3.12 +
+[lowlevel.erbbands.median.4] * 0.08 +
+[lowlevel.spectral_contrast_coeffs.dmean2.3] * 12.36 +
+[tonal.hpcp.dvar2.28] * -2.66 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * -631.26 +
+[lowlevel.melbands.var.13] * 3552692.72 +
+[lowlevel.erbbands.median.2] * 0.11 +
+[tonal.hpcp.dvar2.23] * 5.6  +
+[lowlevel.gfcc.icov.5.5] * 21.06 +
+[lowlevel.gfcc.cov.8.8] * 0    +
+[tonal.hpcp.median.34] * -1.28 +
+[lowlevel.spectral_contrast_coeffs.dmean2.2] * 28.04 +
+[lowlevel.melbands.var.27] * 225461692.14 +
+[lowlevel.melbands.var.19] * -65196183.15 +
+[tonal.hpcp.dvar2.35] * -6.98 +
+[lowlevel.erbbands_spread.dvar2] * 0    +
+[tonal.hpcp.median.0] * -1.34 +
+[lowlevel.barkbands_kurtosis.median] * -0.08 +
+[lowlevel.barkbands.var.13] * -129653.66 +
+[tonal.hpcp.var.3] * 4.64 +
+[lowlevel.silence_rate_60dB.var] * 1.37 +
+[lowlevel.melbands.var.31] * -453563698.12 +
+[tonal.hpcp.median.3] * 1.65 +
+[lowlevel.pitch_salience.dvar2] * 26.54 +
+[tonal.hpcp.var.9] * 2.55 +
+[lowlevel.mfcc.cov.0.0] * 0    +
+[lowlevel.erbbands.var.6] * -0 +
+[lowlevel.erbbands.max.7] * -0 +
+[tonal.hpcp.var.7] * -1.74 +
+[lowlevel.gfcc.cov.6.6] * 0    +
+[lowlevel.gfcc.mean.10] * 0.03 +
+[tonal.hpcp.var.12] * 4.1
+
+Class 2019 :
+-5.45 +
+[lowlevel.spectral_centroid.dmean] * -0.01 +
+[lowlevel.spectral_contrast_coeffs.dvar2.5] * -672.67 +
+[lowlevel.spectral_contrast_coeffs.dvar2.3] * 152.14 +
+[tonal.hpcp.median.19] * 1.63 +
+[tonal.hpcp.var.30] * -4.8 +
+[tonal.hpcp.dvar2.7] * 8.53 +
+[lowlevel.spectral_contrast_valleys.dvar2.1] * 0.51 +
+[tonal.hpcp.var.1] * -2.1 +
+[tonal.hpcp.dvar2.12] * 2.79 +
+[tonal.hpcp.median.13] * -2.45 +
+[tonal.hpcp.dvar2.23] * -3.82 +
+[tonal.hpcp.median.9] * -2.17 +
+[lowlevel.gfcc.icov.5.5] * -139.48 +
+[lowlevel.gfcc.cov.8.8] * 0    +
+[tonal.hpcp.median.34] * -1.3 +
+[lowlevel.melbands.var.27] * 309462685.6 +
+[lowlevel.melbands.var.19] * 8891565.73 +
+[tonal.hpcp.median.27] * -12.33 +
+[lowlevel.spectral_contrast_coeffs.median.3] * -10.42 +
+[tonal.hpcp.var.27] * 7.37 +
+[lowlevel.erbbands_spread.dvar2] * 0    +
+[lowlevel.barkbands_kurtosis.median] * -0.11 +
+[lowlevel.barkbands.var.13] * -30206.7 +
+[tonal.hpcp.dvar2.26] * -2.18 +
+[tonal.hpcp.var.3] * -2.42 +
+[lowlevel.silence_rate_60dB.var] * -6.33 +
+[lowlevel.erbbands_flatness_db.dvar2] * -968.15 +
+[lowlevel.barkbands.median.10] * 1424.34 +
+[lowlevel.mfcc.cov.0.0] * 0    +
+[tonal.hpcp.var.6] * -2.11 +
+[lowlevel.erbbands.median.0] * -0.54 +
+[lowlevel.erbbands.max.7] * -0 +
+[lowlevel.spectral_contrast_valleys.dvar2.2] * 0.35
+
+Class 2020 :
+-4.56 +
+[lowlevel.barkbands_spread.dvar2] * -0 +
+[tonal.hpcp.median.19] * 4.39 +
+[tonal.hpcp.var.30] * 2.46 +
+[tonal.hpcp.median.1] * 1.24 +
+[lowlevel.spectral_contrast_coeffs.dmean2.5] * 12.79 +
+[lowlevel.erbbands.median.4] * -0.1 +
+[tonal.hpcp.dvar.18] * -4.35 +
+[tonal.hpcp.dvar2.28] * -4.27 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * -1443.97 +
+[lowlevel.erbbands.median.2] * 0.05 +
+[tonal.hpcp.dvar2.10] * 1.64 +
+[tonal.hpcp.dvar2.23] * -1.87 +
+[tonal.hpcp.dvar2.13] * 1.61 +
+[lowlevel.gfcc.icov.5.5] * -24.69 +
+[tonal.hpcp.median.34] * 1.38 +
+[lowlevel.spectral_contrast_coeffs.dmean2.2] * 8.41 +
+[lowlevel.melbands.var.27] * 301614309.77 +
+[tonal.hpcp.dvar2.8] * 3.96 +
+[tonal.hpcp.var.27] * -2.77 +
+[tonal.hpcp.dvar2.26] * 3.66 +
+[lowlevel.silence_rate_60dB.var] * -1.45 +
+[lowlevel.melbands.var.31] * 295634105.63 +
+[tonal.hpcp.median.3] * -1.32 +
+[tonal.hpcp.var.33] * -5.94 +
+[tonal.hpcp.dvar2.6] * 5.06 +
+[tonal.hpcp.var.9] * -9.97 +
+[tonal.hpcp.median.12] * -1.44 +
+[lowlevel.mfcc.cov.0.0] * 0    +
+[lowlevel.erbbands.var.6] * -0 +
+[lowlevel.erbbands.median.0] * -0.14 +
+[tonal.hpcp.dvar.25] * 17.73 +
+[tonal.hpcp.dvar2.0] * -1.85 +
+[tonal.hpcp.var.0] * -1.84 +
+[lowlevel.erbbands.max.7] * -0 +
+[tonal.hpcp.median.15] * 1.28 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * -32.18 +
+[lowlevel.melbands.var.20] * 30650865.64 +
+[lowlevel.melbands_kurtosis.median] * -0.03 +
+[lowlevel.spectral_contrast_coeffs.median.1] * -7.89 +
+[lowlevel.gfcc.mean.10] * 0.05 +
+[lowlevel.spectral_contrast_coeffs.dmean2.1] * 20.28 +
+[tonal.hpcp.median.30] * 1.97 +
+[tonal.hpcp.var.12] * -1.75
+
+Class 2021 :
+8    +
+[tonal.hpcp.dvar2.18] * 6.2  +
+[lowlevel.barkbands_spread.dvar2] * -0 +
+[lowlevel.erbbands.median.4] * -0.05 +
+[tonal.hpcp.var.1] * -6.06 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * 199.08 +
+[tonal.hpcp.dvar2.23] * -2.55 +
+[tonal.hpcp.median.9] * 1.41 +
+[tonal.hpcp.dvar2.13] * -2.03 +
+[lowlevel.gfcc.icov.5.5] * -134.22 +
+[tonal.hpcp.median.10] * 2.16 +
+[lowlevel.melbands.var.27] * -241580203.69 +
+[lowlevel.spectral_contrast_coeffs.dmean.1] * -40.7 +
+[lowlevel.barkbands_skewness.var] * -0.09 +
+[lowlevel.spectral_contrast_coeffs.median.3] * 2.23 +
+[lowlevel.barkbands.var.15] * 148085.82 +
+[lowlevel.erbbands_spread.dvar2] * -0 +
+[lowlevel.barkbands_kurtosis.median] * 0.04 +
+[lowlevel.barkbands.var.13] * -90088.77 +
+[lowlevel.barkbands.var.6] * -43136.22 +
+[lowlevel.silence_rate_60dB.var] * -3.23 +
+[lowlevel.spectral_centroid.dvar2] * 0    +
+[tonal.hpcp.var.10] * -1.69 +
+[lowlevel.melbands.median.1] * 114.55 +
+[tonal.hpcp.dvar2.6] * -2.38 +
+[tonal.hpcp.var.9] * -1.58 +
+[lowlevel.mfcc.cov.0.0] * 0    +
+[lowlevel.erbbands.var.6] * 0    +
+[lowlevel.erbbands.median.0] * 0.12 +
+[lowlevel.erbbands.max.7] * -0 +
+[tonal.hpcp.var.7] * 2.86 +
+[lowlevel.gfcc.cov.6.6] * 0    +
+[tonal.hpcp.dvar2.21] * 1.18 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * -102.94 +
+[lowlevel.melbands.var.20] * 13769134.03 +
+[lowlevel.gfcc.mean.10] * 0.04
+
+Class 2022 :
+14.73 +
+[lowlevel.spectral_centroid.dmean] * -0 +
+[tonal.hpcp.dvar2.17] * -3.63 +
+[tonal.hpcp.var.30] * 5.18 +
+[lowlevel.spectral_contrast_valleys.dvar2.1] * -0.31 +
+[lowlevel.spectral_contrast_coeffs.dmean2.5] * 53.6 +
+[lowlevel.spectral_contrast_coeffs.dmean2.3] * -55.07 +
+[tonal.hpcp.var.1] * -2.88 +
+[lowlevel.spectral_contrast_coeffs.dvar2.4] * 191.76 +
+[lowlevel.erbbands.median.2] * -0.07 +
+[lowlevel.melbands.var.25] * 123527917.39 +
+[lowlevel.erbbands_flatness_db.dvar] * 203.48 +
+[tonal.hpcp.dvar2.23] * 8.63 +
+[lowlevel.gfcc.icov.5.5] * 22.87 +
+[lowlevel.spectral_centroid.dvar] * -0 +
+[lowlevel.spectral_contrast_coeffs.dmean2.2] * -15.62 +
+[lowlevel.melbands.var.27] * -165252702.44 +
+[tonal.hpcp.median.27] * 1.86 +
+[lowlevel.spectral_contrast_coeffs.median.3] * 9.5  +
+[lowlevel.barkbands_kurtosis.median] * -0.05 +
+[tonal.hpcp.dvar2.26] * -2.87 +
+[lowlevel.barkbands.var.6] * 6361.59 +
+[tonal.hpcp.var.10] * -7.81 +
+[lowlevel.melbands.var.31] * 936708273.99 +
+[lowlevel.barkbands.median.10] * 369.91 +
+[tonal.hpcp.var.33] * 4.59 +
+[tonal.hpcp.dvar2.6] * 1.61 +
+[lowlevel.erbbands.median.0] * 0.51 +
+[tonal.hpcp.dvar.25] * 27.42 +
+[tonal.hpcp.dvar2.0] * 3.21 +
+[lowlevel.mfcc.cov.3.3] * 0    +
+[tonal.hpcp.var.0] * -1.79 +
+[lowlevel.erbbands.max.7] * -0 +
+[lowlevel.gfcc.cov.6.6] * 0    +
+[tonal.hpcp.dvar2.21] * -5.52 +
+[tonal.hpcp.median.15] * 3.53 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * -100.07 +
+[lowlevel.melbands.var.20] * -21464299.85 +
+[lowlevel.spectral_contrast_coeffs.median.1] * 5.31 +
+[lowlevel.spectral_contrast_valleys.dvar2.2] * 0.28 +
+[lowlevel.gfcc.mean.10] * -0.06
+
+Class 2023 :
+6.92 +
+[lowlevel.spectral_contrast_coeffs.dvar2.5] * 635.72 +
+[tonal.hpcp.var.30] * 1.97 +
+[tonal.hpcp.dvar2.7] * 1.92 +
+[lowlevel.spectral_contrast_valleys.dvar2.1] * -0.31 +
+[lowlevel.melbands.var.25] * -516926118.57 +
+[lowlevel.gfcc.cov.8.8] * -0 +
+[tonal.hpcp.dvar2.33] * -2.79 +
+[lowlevel.spectral_centroid.dvar] * -0 +
+[lowlevel.spectral_contrast_coeffs.dmean2.2] * -89.49 +
+[lowlevel.barkbands_skewness.var] * -0.06 +
+[tonal.hpcp.dvar2.9] * 1.97 +
+[tonal.hpcp.dvar2.35] * -4.56 +
+[tonal.hpcp.var.27] * 1.74 +
+[tonal.hpcp.var.3] * -6.49 +
+[lowlevel.silence_rate_60dB.var] * -7.59 +
+[lowlevel.barkbands.median.10] * 2326.22 +
+[tonal.hpcp.var.33] * -1.99 +
+[lowlevel.pitch_salience.dvar2] * 35.35 +
+[lowlevel.melbands.median.1] * -47.78 +
+[tonal.hpcp.dvar2.6] * 4.04 +
+[tonal.hpcp.var.9] * -7.15 +
+[lowlevel.mfcc.cov.0.0] * -0 +
+[tonal.hpcp.var.6] * -1.79 +
+[lowlevel.erbbands.median.0] * 0.47 +
+[lowlevel.mfcc.cov.3.3] * 0    +
+[tonal.hpcp.var.7] * -7.1 +
+[tonal.hpcp.median.15] * -1.22 +
+[lowlevel.melbands.var.20] * 18265660.83 +
+[lowlevel.melbands_kurtosis.median] * -0.01 +
+[lowlevel.barkbands.var.18] * 565384.05 +
+[tonal.hpcp.dvar.23] * 10.48 +
+[lowlevel.gfcc.mean.10] * 0.03 +
+[tonal.hpcp.median.30] * 2.39
+
+Class 2024 :
+1.04 +
+[tonal.hpcp.dvar2.17] * 2.66 +
+[lowlevel.spectral_contrast_coeffs.dvar2.3] * 447.21 +
+[tonal.hpcp.var.30] * -2.6 +
+[lowlevel.spectral_contrast_coeffs.dmean.5] * -68.78 +
+[tonal.hpcp.median.1] * 2.84 +
+[lowlevel.erbbands.median.4] * 0.2  +
+[tonal.hpcp.dvar2.28] * -3.74 +
+[lowlevel.melbands.var.13] * 2349622.36 +
+[lowlevel.erbbands.median.2] * -0.08 +
+[tonal.hpcp.median.9] * 3.81 +
+[tonal.hpcp.dvar2.13] * 3.81 +
+[lowlevel.gfcc.icov.5.5] * -24.26 +
+[lowlevel.gfcc.cov.8.8] * -0 +
+[tonal.hpcp.dvar2.33] * -3.69 +
+[lowlevel.spectral_contrast_coeffs.dmean2.2] * 40.9 +
+[lowlevel.spectral_contrast_coeffs.dmean.1] * -83.03 +
+[lowlevel.barkbands_skewness.var] * 0.01 +
+[lowlevel.spectral_spread.dmean2] * 0    +
+[lowlevel.barkbands.var.15] * -327167.23 +
+[tonal.hpcp.dvar2.35] * -4.79 +
+[lowlevel.erbbands_spread.dvar2] * -0 +
+[lowlevel.barkbands.var.6] * 10548.64 +
+[lowlevel.spectral_centroid.dvar2] * 0    +
+[lowlevel.barkbands.median.10] * 2914.46 +
+[lowlevel.pitch_salience.dvar2] * 35.37 +
+[lowlevel.erbbands.var.6] * 0    +
+[tonal.hpcp.var.6] * -3.86 +
+[lowlevel.erbbands.median.0] * 0.49 +
+[lowlevel.mfcc.cov.3.3] * 0    +
+[lowlevel.erbbands.max.7] * -0 +
+[lowlevel.gfcc.cov.6.6] * -0 +
+[lowlevel.spectral_contrast_coeffs.dmean.4] * -116.57 +
+[lowlevel.melbands_kurtosis.median] * -0.03 +
+[lowlevel.spectral_contrast_coeffs.median.1] * -3.48 +
+[lowlevel.gfcc.mean.10] * 0.07
+
+
+Time taken to build model: 2.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         376               20.3684 %
+Incorrectly Classified Instances      1470               79.6316 %
+Kappa statistic                          0.1333
+Mean absolute error                      0.1154
+Root mean squared error                  0.2438
+Relative absolute error                 93.8854 %
+Root relative squared error             98.3373 %
+Total Number of Instances             1846
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.118    0.005    0.182      0.118    0.143      0.140    0.706     0.059     a2010
+                 0.043    0.012    0.045      0.043    0.044      0.033    0.802     0.058     2011
+                 0.312    0.029    0.316      0.312    0.314      0.284    0.801     0.215     2012
+                 0.268    0.075    0.229      0.268    0.247      0.179    0.741     0.206     2013
+                 0.162    0.050    0.198      0.162    0.178      0.123    0.692     0.146     2014
+                 0.285    0.100    0.227      0.285    0.253      0.167    0.717     0.210     2015
+                 0.076    0.047    0.111      0.076    0.090      0.035    0.615     0.105     2016
+                 0.103    0.046    0.132      0.103    0.115      0.064    0.673     0.114     2017
+                 0.045    0.024    0.106      0.045    0.063      0.031    0.608     0.083     2018
+                 0.124    0.053    0.133      0.124    0.128      0.074    0.708     0.117     2019
+                 0.144    0.070    0.129      0.144    0.136      0.070    0.698     0.130     2020
+                 0.268    0.107    0.212      0.268    0.237      0.146    0.684     0.204     2021
+                 0.250    0.103    0.228      0.250    0.239      0.142    0.652     0.235     2022
+                 0.304    0.104    0.241      0.304    0.269      0.181    0.719     0.252     2023
+                 0.228    0.044    0.279      0.228    0.251      0.203    0.742     0.265     2024
+Weighted Avg.    0.204    0.070    0.196      0.204    0.197      0.130    0.695     0.180
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+  2  1  0  5  1  2  1  0  0  0  2  1  1  0  1 |  a = a2010
+  2  1  2  8  1  4  0  0  0  1  0  0  2  2  0 |  b = 2011
+  0  1 24 10  8  5  0  3  2  1  5  6  7  2  3 |  c = 2012
+  3  3 16 38 11 25  7  4  3  3  0  6  8 11  4 |  d = 2013
+  0  1  3 22 21 37  4  5  2  2  1  8  9 13  2 |  e = 2014
+  2  3  2 23 16 49  8  8  5 10  4  6 20  9  7 |  f = 2015
+  0  1  2 10  7 17 10 11  7  7  3 24 16 13  4 |  g = 2016
+  0  1  2  7  9 10 11 12  3 10  8 12 13 13  6 |  h = 2017
+  1  1  5  9  6 15  6  5  5 11  7  9 14  7 10 |  i = 2018
+  0  0  1  4  5  9  5  6  2 14 12 22  9 17  7 |  j = 2019
+  0  0  6  3  0  8  8 11  5 10 18 21 13 13  9 |  k = 2020
+  0  0  2  7  6 10 10  7  3 13 26 48 22 17  8 |  l = 2021
+  1  5  3  7  6 14  7  9  5  8 22 24 50 35  4 |  m = 2022
+  0  3  1 10  7  4  7  5  2 11 19 23 24 55 10 |  n = 2023
+  0  1  7  3  2  7  6  5  3  4 12 16 11 21 29 |  o = 2024
+

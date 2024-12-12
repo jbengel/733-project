@@ -1,0 +1,215 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     reduced4-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    1846
+Attributes:   98
+              upload_year
+              lowlevel.spectral_centroid.dmean
+              lowlevel.spectral_centroid.dmean2
+              lowlevel.spectral_contrast_coeffs.dvar.5
+              tonal.hpcp.dvar2.18
+              lowlevel.spectral_contrast_coeffs.dvar2.5
+              tonal.hpcp.dvar2.17
+              lowlevel.spectral_contrast_coeffs.dvar2.3
+              lowlevel.barkbands_spread.dvar2
+              tonal.hpcp.median.19
+              tonal.hpcp.var.30
+              lowlevel.spectral_contrast_coeffs.dmean.5
+              tonal.hpcp.dvar2.7
+              tonal.hpcp.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.1
+              lowlevel.spectral_contrast_coeffs.dmean2.5
+              lowlevel.erbbands.median.4
+              tonal.hpcp.median.18
+              lowlevel.spectral_contrast_coeffs.dmean2.3
+              tonal.hpcp.var.1
+              tonal.hpcp.dvar.18
+              tonal.hpcp.dvar2.12
+              tonal.hpcp.dvar2.28
+              tonal.hpcp.median.13
+              lowlevel.spectral_contrast_coeffs.dvar2.4
+              lowlevel.melbands.var.13
+              lowlevel.erbbands.median.2
+              lowlevel.melbands.var.25
+              tonal.hpcp.dvar2.10
+              lowlevel.erbbands_flatness_db.dvar
+              tonal.hpcp.dvar2.23
+              tonal.hpcp.median.9
+              tonal.hpcp.dvar2.13
+              lowlevel.gfcc.icov.5.5
+              lowlevel.gfcc.cov.8.8
+              tonal.hpcp.median.34
+              tonal.hpcp.median.10
+              tonal.hpcp.dvar2.33
+              lowlevel.spectral_centroid.dvar
+              lowlevel.spectral_contrast_coeffs.dmean2.2
+              lowlevel.melbands.var.27
+              lowlevel.melbands.var.19
+              lowlevel.spectral_contrast_coeffs.dmean.1
+              lowlevel.spectral_contrast_coeffs.dmean2.4
+              lowlevel.barkbands_skewness.var
+              lowlevel.spectral_spread.dmean2
+              tonal.hpcp.dvar2.8
+              tonal.hpcp.median.27
+              tonal.hpcp.dvar2.9
+              lowlevel.spectral_contrast_coeffs.median.3
+              lowlevel.barkbands.var.15
+              tonal.hpcp.dvar2.35
+              tonal.hpcp.var.27
+              lowlevel.erbbands_spread.dvar2
+              tonal.hpcp.median.0
+              lowlevel.barkbands_kurtosis.median
+              lowlevel.barkbands.var.13
+              tonal.hpcp.dvar2.26
+              tonal.hpcp.median.31
+              lowlevel.barkbands.var.6
+              tonal.hpcp.var.3
+              lowlevel.silence_rate_60dB.var
+              lowlevel.spectral_centroid.dvar2
+              tonal.hpcp.var.10
+              lowlevel.erbbands_flatness_db.dvar2
+              lowlevel.melbands.var.31
+              tonal.hpcp.median.3
+              lowlevel.barkbands.median.10
+              tonal.hpcp.var.33
+              lowlevel.pitch_salience.dvar2
+              lowlevel.melbands.median.1
+              tonal.hpcp.dvar2.6
+              tonal.hpcp.var.9
+              tonal.hpcp.median.12
+              lowlevel.mfcc.cov.0.0
+              lowlevel.erbbands.var.6
+              tonal.hpcp.var.6
+              lowlevel.erbbands.median.0
+              tonal.hpcp.dvar.25
+              tonal.hpcp.dvar2.0
+              lowlevel.mfcc.cov.3.3
+              tonal.hpcp.var.0
+              lowlevel.erbbands.max.7
+              tonal.hpcp.var.7
+              lowlevel.gfcc.cov.6.6
+              tonal.hpcp.dvar2.21
+              tonal.hpcp.median.15
+              lowlevel.spectral_contrast_coeffs.dmean.4
+              lowlevel.melbands.var.20
+              lowlevel.melbands_kurtosis.median
+              lowlevel.spectral_contrast_coeffs.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.2
+              lowlevel.barkbands.var.18
+              tonal.hpcp.dvar.23
+              lowlevel.gfcc.mean.10
+              lowlevel.spectral_contrast_coeffs.dmean2.1
+              tonal.hpcp.median.30
+              tonal.hpcp.var.12
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+lowlevel.barkbands_skewness.var:
+	< 0.6174164116385	-> 2020
+	< 0.8795394599440001	-> 2022
+	< 0.984218746424	-> 2024
+	< 1.099087059495	-> 2023
+	< 1.203638494015	-> 2024
+	< 1.424264967445	-> 2022
+	< 1.496576547625	-> 2024
+	< 1.5669776201249999	-> 2022
+	< 1.6114104390150001	-> 2024
+	< 1.7610296010950002	-> 2023
+	< 1.78812557459	-> 2022
+	< 1.9781846404099999	-> 2023
+	< 2.126916170125	-> 2021
+	< 2.207874059675	-> 2020
+	< 2.40666413307	-> 2022
+	< 2.493198156355	-> 2023
+	< 2.615252971645	-> 2022
+	< 2.6790024042100002	-> 2021
+	< 2.76101875305	-> 2020
+	< 2.94231581688	-> 2021
+	< 3.0543274879449998	-> 2016
+	< 3.210592031475	-> 2015
+	< 3.2835071086900003	-> 2021
+	< 3.440129876135	-> 2018
+	< 3.6114513874050003	-> 2016
+	< 3.714916229245	-> 2023
+	< 3.80144190788	-> 2021
+	< 3.87432587147	-> 2022
+	< 4.06865906715	-> 2017
+	< 4.263107299805	-> 2015
+	< 4.37814450264	-> 2016
+	< 4.76184344292	-> 2023
+	< 5.242473363875	-> 2022
+	< 5.357056379315	-> 2013
+	< 5.614370584485	-> 2015
+	< 5.888032674785	-> 2022
+	< 6.150150060655	-> 2017
+	< 6.434117794035	-> 2016
+	< 6.8214809894599995	-> 2021
+	< 7.664452314375	-> 2015
+	< 8.13788795471	-> 2022
+	< 9.10364627838	-> 2015
+	< 9.99288415911	-> 2022
+	< 11.463738918299999	-> 2013
+	< 12.0534672737	-> 2015
+	< 13.23531866075	-> 2017
+	< 17.0369882584	-> 2015
+	< 21.370524406450002	-> 2013
+	< 55.88488388065	-> 2014
+	>= 55.88488388065	-> 2015
+(415/1846 instances correct)
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         219               11.8635 %
+Incorrectly Classified Instances      1627               88.1365 %
+Kappa statistic                          0.0335
+Mean absolute error                      0.1175
+Root mean squared error                  0.3428
+Relative absolute error                 95.5921 %
+Root relative squared error            138.2764 %
+Total Number of Instances             1846
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.009     a2010
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.012     2011
+                 0.013    0.007    0.071      0.013    0.022      0.013    0.503     0.042     2012
+                 0.070    0.072    0.076      0.070    0.073      -0.001   0.499     0.077     2013
+                 0.085    0.045    0.125      0.085    0.101      0.048    0.520     0.075     2014
+                 0.250    0.161    0.137      0.250    0.177      0.069    0.544     0.104     2015
+                 0.189    0.065    0.182      0.189    0.186      0.122    0.562     0.093     2016
+                 0.017    0.037    0.030      0.017    0.022      -0.026   0.490     0.063     2017
+                 0.036    0.028    0.077      0.036    0.049      0.012    0.504     0.061     2018
+                 0.009    0.018    0.030      0.009    0.014      -0.017   0.495     0.061     2019
+                 0.072    0.044    0.106      0.072    0.086      0.033    0.514     0.070     2020
+                 0.112    0.125    0.087      0.112    0.098      -0.012   0.493     0.096     2021
+                 0.280    0.173    0.164      0.280    0.207      0.086    0.553     0.124     2022
+                 0.166    0.144    0.111      0.166    0.133      0.018    0.511     0.100     2023
+                 0.055    0.046    0.081      0.055    0.066      0.011    0.505     0.069     2024
+Weighted Avg.    0.119    0.085    ?          0.119    ?          ?        0.517     0.083
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+  0  0  0  0  1  1  1  1  1  1  1  5  1  4  0 |  a = a2010
+  0  0  0  2  1  5  1  2  1  2  1  3  3  0  2 |  b = 2011
+  0  0  1  5  7 15  2  4  1  0  3  9 14 13  3 |  c = 2012
+  0  0  1 10 13 30 12  4  2  1  6 20 21 19  3 |  d = 2013
+  0  0  3 15 11 26  9  3  4  3  6  9 22 17  2 |  e = 2014
+  0  0  2 20 13 43 12 11  4  2  4  8 24 26  3 |  f = 2015
+  0  0  1  9  5 21 25  4  4  3  5 20 17 16  2 |  g = 2016
+  0  0  1  8 10 24  9  2  6  1  5 13 22 12  4 |  h = 2017
+  0  0  1  8  4 22 10  7  4  1  5 15 16 10  8 |  i = 2018
+  0  0  1  9  3 19  9  2  1  1  8 15 22 16  7 |  j = 2019
+  0  0  0  7  5 19  8  7  1  7  9 16 24 17  5 |  k = 2020
+  0  0  0 18  5 26  9  5  9  1  7 20 31 32 16 |  l = 2021
+  0  0  2  8  3 26 10  6  5  5  6 26 56 37 10 |  m = 2022
+  0  0  0 11  6 23  8  6  5  3  9 27 39 30 14 |  n = 2023
+  0  0  1  2  1 13 12  2  4  2 10 23 29 21  7 |  o = 2024
+

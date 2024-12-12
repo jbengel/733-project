@@ -1,0 +1,187 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR
+Relation:     reduced3-weka.filters.unsupervised.attribute.Remove-R2-3
+Instances:    1851
+Attributes:   98
+              Artist
+              lowlevel.spectral_centroid.dmean
+              lowlevel.spectral_centroid.dmean2
+              lowlevel.spectral_contrast_coeffs.dvar.5
+              tonal.hpcp.dvar2.18
+              lowlevel.spectral_contrast_coeffs.dvar2.5
+              tonal.hpcp.dvar2.17
+              lowlevel.spectral_contrast_coeffs.dvar2.3
+              lowlevel.barkbands_spread.dvar2
+              tonal.hpcp.median.19
+              tonal.hpcp.var.30
+              lowlevel.spectral_contrast_coeffs.dmean.5
+              tonal.hpcp.dvar2.7
+              tonal.hpcp.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.1
+              lowlevel.spectral_contrast_coeffs.dmean2.5
+              lowlevel.erbbands.median.4
+              tonal.hpcp.median.18
+              lowlevel.spectral_contrast_coeffs.dmean2.3
+              tonal.hpcp.var.1
+              tonal.hpcp.dvar.18
+              tonal.hpcp.dvar2.12
+              tonal.hpcp.dvar2.28
+              tonal.hpcp.median.13
+              lowlevel.spectral_contrast_coeffs.dvar2.4
+              lowlevel.melbands.var.13
+              lowlevel.erbbands.median.2
+              lowlevel.melbands.var.25
+              tonal.hpcp.dvar2.10
+              lowlevel.erbbands_flatness_db.dvar
+              tonal.hpcp.dvar2.23
+              tonal.hpcp.median.9
+              tonal.hpcp.dvar2.13
+              lowlevel.gfcc.icov.5.5
+              lowlevel.gfcc.cov.8.8
+              tonal.hpcp.median.34
+              tonal.hpcp.median.10
+              tonal.hpcp.dvar2.33
+              lowlevel.spectral_centroid.dvar
+              lowlevel.spectral_contrast_coeffs.dmean2.2
+              lowlevel.melbands.var.27
+              lowlevel.melbands.var.19
+              lowlevel.spectral_contrast_coeffs.dmean.1
+              lowlevel.spectral_contrast_coeffs.dmean2.4
+              lowlevel.barkbands_skewness.var
+              lowlevel.spectral_spread.dmean2
+              tonal.hpcp.dvar2.8
+              tonal.hpcp.median.27
+              tonal.hpcp.dvar2.9
+              lowlevel.spectral_contrast_coeffs.median.3
+              lowlevel.barkbands.var.15
+              tonal.hpcp.dvar2.35
+              tonal.hpcp.var.27
+              lowlevel.erbbands_spread.dvar2
+              tonal.hpcp.median.0
+              lowlevel.barkbands_kurtosis.median
+              lowlevel.barkbands.var.13
+              tonal.hpcp.dvar2.26
+              tonal.hpcp.median.31
+              lowlevel.barkbands.var.6
+              tonal.hpcp.var.3
+              lowlevel.silence_rate_60dB.var
+              lowlevel.spectral_centroid.dvar2
+              tonal.hpcp.var.10
+              lowlevel.erbbands_flatness_db.dvar2
+              lowlevel.melbands.var.31
+              tonal.hpcp.median.3
+              lowlevel.barkbands.median.10
+              tonal.hpcp.var.33
+              lowlevel.pitch_salience.dvar2
+              lowlevel.melbands.median.1
+              tonal.hpcp.dvar2.6
+              tonal.hpcp.var.9
+              tonal.hpcp.median.12
+              lowlevel.mfcc.cov.0.0
+              lowlevel.erbbands.var.6
+              tonal.hpcp.var.6
+              lowlevel.erbbands.median.0
+              tonal.hpcp.dvar.25
+              tonal.hpcp.dvar2.0
+              lowlevel.mfcc.cov.3.3
+              tonal.hpcp.var.0
+              lowlevel.erbbands.max.7
+              tonal.hpcp.var.7
+              lowlevel.gfcc.cov.6.6
+              tonal.hpcp.dvar2.21
+              tonal.hpcp.median.15
+              lowlevel.spectral_contrast_coeffs.dmean.4
+              lowlevel.melbands.var.20
+              lowlevel.melbands_kurtosis.median
+              lowlevel.spectral_contrast_coeffs.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.2
+              lowlevel.barkbands.var.18
+              tonal.hpcp.dvar.23
+              lowlevel.gfcc.mean.10
+              lowlevel.spectral_contrast_coeffs.dmean2.1
+              tonal.hpcp.median.30
+              tonal.hpcp.var.12
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: Waterflame
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         286               15.4511 %
+Incorrectly Classified Instances      1565               84.5489 %
+Kappa statistic                          0
+Mean absolute error                      0.0698
+Root mean squared error                  0.1868
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             1851
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.480     0.022     Artifyber
+                 0.000    0.000    ?          0.000    ?          ?        0.481     0.022     Boom Kitty
+                 0.000    0.000    ?          0.000    ?          ?        0.492     0.031     BOSSFIGHT
+                 0.000    0.000    ?          0.000    ?          ?        0.494     0.047     Camellia Official
+                 0.000    0.000    ?          0.000    ?          ?        0.492     0.031     CaravanPalace
+                 0.000    0.000    ?          0.000    ?          ?        0.480     0.033     Daft Punk
+                 0.000    0.000    ?          0.000    ?          ?        0.466     0.018     Dex Arson
+                 0.000    0.000    ?          0.000    ?          ?        0.476     0.010     dj-Nate
+                 0.000    0.000    ?          0.000    ?          ?        0.495     0.053     DJVI
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.038     F-777
+                 0.000    0.000    ?          0.000    ?          ?        0.416     0.007     Hinkik
+                 0.000    0.000    ?          0.000    ?          ?        0.483     0.025     K1llbot
+                 0.000    0.000    ?          0.000    ?          ?        0.449     0.012     Kotori
+                 0.000    0.000    ?          0.000    ?          ?        0.486     0.050     MDK
+                 0.000    0.000    ?          0.000    ?          ?        0.472     0.022     meganeko
+                 0.000    0.000    ?          0.000    ?          ?        0.472     0.023     Mittsies
+                 0.000    0.000    ?          0.000    ?          ?        0.466     0.018     Neraki
+                 0.000    0.000    ?          0.000    ?          ?        0.491     0.067     OfficialPandaEyes
+                 0.000    0.000    ?          0.000    ?          ?        0.490     0.067     Riff Kitten
+                 0.000    0.000    ?          0.000    ?          ?        0.481     0.030     ShirobonTV
+                 0.000    0.000    ?          0.000    ?          ?        0.486     0.050     Teminite
+                 0.000    0.000    ?          0.000    ?          ?        0.478     0.029     TheFatRat
+                 0.000    0.000    ?          0.000    ?          ?        0.485     0.044     V-4
+                 0.000    0.000    ?          0.000    ?          ?        0.476     0.028     Vicetone
+                 1.000    1.000    0.155      1.000    0.268      ?        0.495     0.153     Waterflame
+                 0.000    0.000    ?          0.000    ?          ?        0.478     0.011     Xomu
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.032     Xtrullor
+Weighted Avg.    0.155    0.155    ?          0.155    ?          ?        0.486     0.057
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   y   z  aa   <-- classified as
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  42   0   0 |   a = Artifyber
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  42   0   0 |   b = Boom Kitty
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  59   0   0 |   c = BOSSFIGHT
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  89   0   0 |   d = Camellia Official
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  59   0   0 |   e = CaravanPalace
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  64   0   0 |   f = Daft Punk
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  36   0   0 |   g = Dex Arson
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  19   0   0 |   h = dj-Nate
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  99   0   0 |   i = DJVI
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  70   0   0 |   j = F-777
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  15   0   0 |   k = Hinkik
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  48   0   0 |   l = K1llbot
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  24   0   0 |   m = Kotori
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  94   0   0 |   n = MDK
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  44   0   0 |   o = meganeko
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  45   0   0 |   p = Mittsies
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  36   0   0 |   q = Neraki
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 127   0   0 |   r = OfficialPandaEyes
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 126   0   0 |   s = Riff Kitten
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  57   0   0 |   t = ShirobonTV
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  94   0   0 |   u = Teminite
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  56   0   0 |   v = TheFatRat
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  84   0   0 |   w = V-4
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  55   0   0 |   x = Vicetone
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 286   0   0 |   y = Waterflame
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  21   0   0 |   z = Xomu
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  60   0   0 |  aa = Xtrullor
+

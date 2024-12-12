@@ -1,0 +1,167 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     reduced4-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    1846
+Attributes:   98
+              upload_year
+              lowlevel.spectral_centroid.dmean
+              lowlevel.spectral_centroid.dmean2
+              lowlevel.spectral_contrast_coeffs.dvar.5
+              tonal.hpcp.dvar2.18
+              lowlevel.spectral_contrast_coeffs.dvar2.5
+              tonal.hpcp.dvar2.17
+              lowlevel.spectral_contrast_coeffs.dvar2.3
+              lowlevel.barkbands_spread.dvar2
+              tonal.hpcp.median.19
+              tonal.hpcp.var.30
+              lowlevel.spectral_contrast_coeffs.dmean.5
+              tonal.hpcp.dvar2.7
+              tonal.hpcp.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.1
+              lowlevel.spectral_contrast_coeffs.dmean2.5
+              lowlevel.erbbands.median.4
+              tonal.hpcp.median.18
+              lowlevel.spectral_contrast_coeffs.dmean2.3
+              tonal.hpcp.var.1
+              tonal.hpcp.dvar.18
+              tonal.hpcp.dvar2.12
+              tonal.hpcp.dvar2.28
+              tonal.hpcp.median.13
+              lowlevel.spectral_contrast_coeffs.dvar2.4
+              lowlevel.melbands.var.13
+              lowlevel.erbbands.median.2
+              lowlevel.melbands.var.25
+              tonal.hpcp.dvar2.10
+              lowlevel.erbbands_flatness_db.dvar
+              tonal.hpcp.dvar2.23
+              tonal.hpcp.median.9
+              tonal.hpcp.dvar2.13
+              lowlevel.gfcc.icov.5.5
+              lowlevel.gfcc.cov.8.8
+              tonal.hpcp.median.34
+              tonal.hpcp.median.10
+              tonal.hpcp.dvar2.33
+              lowlevel.spectral_centroid.dvar
+              lowlevel.spectral_contrast_coeffs.dmean2.2
+              lowlevel.melbands.var.27
+              lowlevel.melbands.var.19
+              lowlevel.spectral_contrast_coeffs.dmean.1
+              lowlevel.spectral_contrast_coeffs.dmean2.4
+              lowlevel.barkbands_skewness.var
+              lowlevel.spectral_spread.dmean2
+              tonal.hpcp.dvar2.8
+              tonal.hpcp.median.27
+              tonal.hpcp.dvar2.9
+              lowlevel.spectral_contrast_coeffs.median.3
+              lowlevel.barkbands.var.15
+              tonal.hpcp.dvar2.35
+              tonal.hpcp.var.27
+              lowlevel.erbbands_spread.dvar2
+              tonal.hpcp.median.0
+              lowlevel.barkbands_kurtosis.median
+              lowlevel.barkbands.var.13
+              tonal.hpcp.dvar2.26
+              tonal.hpcp.median.31
+              lowlevel.barkbands.var.6
+              tonal.hpcp.var.3
+              lowlevel.silence_rate_60dB.var
+              lowlevel.spectral_centroid.dvar2
+              tonal.hpcp.var.10
+              lowlevel.erbbands_flatness_db.dvar2
+              lowlevel.melbands.var.31
+              tonal.hpcp.median.3
+              lowlevel.barkbands.median.10
+              tonal.hpcp.var.33
+              lowlevel.pitch_salience.dvar2
+              lowlevel.melbands.median.1
+              tonal.hpcp.dvar2.6
+              tonal.hpcp.var.9
+              tonal.hpcp.median.12
+              lowlevel.mfcc.cov.0.0
+              lowlevel.erbbands.var.6
+              tonal.hpcp.var.6
+              lowlevel.erbbands.median.0
+              tonal.hpcp.dvar.25
+              tonal.hpcp.dvar2.0
+              lowlevel.mfcc.cov.3.3
+              tonal.hpcp.var.0
+              lowlevel.erbbands.max.7
+              tonal.hpcp.var.7
+              lowlevel.gfcc.cov.6.6
+              tonal.hpcp.dvar2.21
+              tonal.hpcp.median.15
+              lowlevel.spectral_contrast_coeffs.dmean.4
+              lowlevel.melbands.var.20
+              lowlevel.melbands_kurtosis.median
+              lowlevel.spectral_contrast_coeffs.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.2
+              lowlevel.barkbands.var.18
+              tonal.hpcp.dvar.23
+              lowlevel.gfcc.mean.10
+              lowlevel.spectral_contrast_coeffs.dmean2.1
+              tonal.hpcp.median.30
+              tonal.hpcp.var.12
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.19 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         452               24.4854 %
+Incorrectly Classified Instances      1394               75.5146 %
+Kappa statistic                          0.1738
+Mean absolute error                      0.1174
+Root mean squared error                  0.2408
+Relative absolute error                 95.5222 %
+Root relative squared error             97.1395 %
+Total Number of Instances             1846
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.602     0.018     a2010
+                 0.000    0.001    0.000      0.000    0.000      -0.003   0.779     0.097     2011
+                 0.117    0.012    0.300      0.117    0.168      0.166    0.779     0.187     2012
+                 0.359    0.075    0.285      0.359    0.318      0.256    0.764     0.279     2013
+                 0.169    0.050    0.206      0.169    0.186      0.131    0.712     0.174     2014
+                 0.366    0.139    0.214      0.366    0.270      0.181    0.738     0.220     2015
+                 0.174    0.057    0.192      0.174    0.183      0.123    0.712     0.179     2016
+                 0.094    0.024    0.212      0.094    0.130      0.104    0.668     0.122     2017
+                 0.117    0.018    0.289      0.117    0.167      0.152    0.610     0.132     2018
+                 0.168    0.040    0.213      0.168    0.188      0.143    0.705     0.161     2019
+                 0.272    0.053    0.270      0.272    0.271      0.218    0.756     0.200     2020
+                 0.274    0.118    0.199      0.274    0.231      0.135    0.708     0.223     2021
+                 0.430    0.134    0.280      0.430    0.339      0.247    0.710     0.304     2022
+                 0.298    0.087    0.271      0.298    0.284      0.203    0.702     0.272     2023
+                 0.142    0.019    0.360      0.142    0.203      0.192    0.673     0.226     2024
+Weighted Avg.    0.245    0.071    ?          0.245    ?          ?        0.710     0.212
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+  0  0  2  2  3  4  0  0  0  0  1  3  1  0  1 |  a = a2010
+  0  0  1  4  3  9  1  0  0  0  0  1  3  1  0 |  b = 2011
+  0  1  9 10  2 15  5  1  1  2  5  7 13  6  0 |  c = 2012
+  0  0  5 51 12 33  7  2  1  0  2  5 16  8  0 |  d = 2013
+  0  0  3 24 22 30  2  7  1  6  6  8 14  6  1 |  e = 2014
+  0  0  1 15 15 63 15  6  0 11  7 14 14  5  6 |  f = 2015
+  0  0  2 10  4 31 23  7  6  6  4 15 16  5  3 |  g = 2016
+  0  0  0 10  6 19 16 11  3  4 11 13 15  8  1 |  h = 2017
+  0  0  0  8  8 16  9  2 13  8  5 12 17 11  2 |  i = 2018
+  0  0  1  2  3 14  8  4  4 19 10 23 16  5  4 |  j = 2019
+  0  0  2  4  3 11  7  2  1 11 34 22 14 12  2 |  k = 2020
+  0  0  1 10  7 12  8  2  5  9 13 49 30 29  4 |  l = 2021
+  0  0  0 10  5 15 10  5  5  4 11 24 86 22  3 |  m = 2022
+  0  0  3 15 10  9  4  3  3  3 11 34 27 54  5 |  n = 2023
+  0  0  0  4  4 14  5  0  2  6  6 16 25 27 18 |  o = 2024
+

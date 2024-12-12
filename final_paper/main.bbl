@@ -1,0 +1,50 @@
+\begin{thebibliography}{}
+
+\bibitem[Bogdanov et~al., 2013]{bogdanov2013essentia}
+Bogdanov, D., Wack, N., G{\'o}mez, E., Gulati, S., Herrera, P., Mayor, O.,
+  Roma, G., Salamon, J., Zapata, J., and Serra, X. (2013).
+\newblock Essentia: an open-source library for sound and music analysis.
+\newblock In {\em Proceedings of the 21st ACM international conference on
+  Multimedia}, pages 855--858.
+
+\bibitem[Eigenfeldt and Pasquier, 2013]{eigenfeldt2013evolving}
+Eigenfeldt, A. and Pasquier, P. (2013).
+\newblock Evolving structures for electronic dance music.
+\newblock In {\em Proceedings of the 15th annual conference on Genetic and
+  evolutionary computation}, pages 319--326.
+
+\bibitem[Faraldo et~al., 2016]{faraldo2016key}
+Faraldo, {\'A}., G{\'o}mez, E., Jord{\`a}, S., and Herrera, P. (2016).
+\newblock Key estimation in electronic dance music.
+\newblock In {\em Advances in Information Retrieval: 38th European Conference
+  on IR Research, ECIR 2016, Padua, Italy, March 20--23, 2016. Proceedings 38},
+  pages 335--347. Springer.
+
+\bibitem[Knees et~al., 2015]{knees2015two}
+Knees, P., Faraldo~P{\'e}rez, {\'A}., Boyer, H., Vogl, R., B{\"o}ck, S.,
+  H{\"o}rschl{\"a}ger, F., Le~Goff, M., et~al. (2015).
+\newblock Two data sets for tempo estimation and key detection in electronic
+  dance music annotated from user corrections.
+\newblock In {\em Proceedings of the 16th International Society for Music
+  Information Retrieval Conference (ISMIR); 2015 Oct 26-30; M{\'a}laga,
+  Spain.[M{\'a}laga]: International Society for Music Information Retrieval,
+  2015. p. 364-70.} International Society for Music Information Retrieval
+  (ISMIR).
+
+\bibitem[{Ranker}, 2024]{ranker2024}
+{Ranker} (2024).
+\newblock The greatest edm artists of all time.
+
+\bibitem[{The Los Angeles Film School}, 2017]{lafs2017}
+{The Los Angeles Film School} (2017).
+\newblock A brief history of edm.
+\newblock {\em The Los Angeles Film School}.
+
+\bibitem[Van~der Velden and Hitters, 2016]{van2016distinctiveness}
+Van~der Velden, J. and Hitters, E. (2016).
+\newblock The distinctiveness of electronic dance music. challenging mainstream
+  routines and structures in the music industries.
+\newblock {\em International Journal of Music Business Research (online)},
+  5(1):59--84.
+
+\end{thebibliography}

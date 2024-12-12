@@ -3,5 +3,7 @@
 *.webm
 *.m4a
 temp/
-music/downloaded.txt
+music/
 essentia/
+reference_pdfs/
+stretch_goals/

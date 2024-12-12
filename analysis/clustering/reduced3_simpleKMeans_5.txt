@@ -1,0 +1,285 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     reduced3-weka.filters.unsupervised.attribute.Remove-R2-3
+Instances:    1846
+Attributes:   98
+              lowlevel.spectral_centroid.dmean
+              lowlevel.spectral_centroid.dmean2
+              lowlevel.spectral_contrast_coeffs.dvar.5
+              tonal.hpcp.dvar2.18
+              lowlevel.spectral_contrast_coeffs.dvar2.5
+              tonal.hpcp.dvar2.17
+              lowlevel.spectral_contrast_coeffs.dvar2.3
+              lowlevel.barkbands_spread.dvar2
+              tonal.hpcp.median.19
+              tonal.hpcp.var.30
+              lowlevel.spectral_contrast_coeffs.dmean.5
+              tonal.hpcp.dvar2.7
+              tonal.hpcp.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.1
+              lowlevel.spectral_contrast_coeffs.dmean2.5
+              lowlevel.erbbands.median.4
+              tonal.hpcp.median.18
+              lowlevel.spectral_contrast_coeffs.dmean2.3
+              tonal.hpcp.var.1
+              tonal.hpcp.dvar.18
+              tonal.hpcp.dvar2.12
+              tonal.hpcp.dvar2.28
+              tonal.hpcp.median.13
+              lowlevel.spectral_contrast_coeffs.dvar2.4
+              lowlevel.melbands.var.13
+              lowlevel.erbbands.median.2
+              lowlevel.melbands.var.25
+              tonal.hpcp.dvar2.10
+              lowlevel.erbbands_flatness_db.dvar
+              tonal.hpcp.dvar2.23
+              tonal.hpcp.median.9
+              tonal.hpcp.dvar2.13
+              lowlevel.gfcc.icov.5.5
+              lowlevel.gfcc.cov.8.8
+              tonal.hpcp.median.34
+              tonal.hpcp.median.10
+              tonal.hpcp.dvar2.33
+              lowlevel.spectral_centroid.dvar
+              lowlevel.spectral_contrast_coeffs.dmean2.2
+              lowlevel.melbands.var.27
+              lowlevel.melbands.var.19
+              lowlevel.spectral_contrast_coeffs.dmean.1
+              lowlevel.spectral_contrast_coeffs.dmean2.4
+              lowlevel.barkbands_skewness.var
+              lowlevel.spectral_spread.dmean2
+              tonal.hpcp.dvar2.8
+              tonal.hpcp.median.27
+              tonal.hpcp.dvar2.9
+              lowlevel.spectral_contrast_coeffs.median.3
+              lowlevel.barkbands.var.15
+              tonal.hpcp.dvar2.35
+              tonal.hpcp.var.27
+              lowlevel.erbbands_spread.dvar2
+              tonal.hpcp.median.0
+              lowlevel.barkbands_kurtosis.median
+              lowlevel.barkbands.var.13
+              tonal.hpcp.dvar2.26
+              tonal.hpcp.median.31
+              lowlevel.barkbands.var.6
+              tonal.hpcp.var.3
+              lowlevel.silence_rate_60dB.var
+              lowlevel.spectral_centroid.dvar2
+              tonal.hpcp.var.10
+              lowlevel.erbbands_flatness_db.dvar2
+              lowlevel.melbands.var.31
+              tonal.hpcp.median.3
+              lowlevel.barkbands.median.10
+              tonal.hpcp.var.33
+              lowlevel.pitch_salience.dvar2
+              lowlevel.melbands.median.1
+              tonal.hpcp.dvar2.6
+              tonal.hpcp.var.9
+              tonal.hpcp.median.12
+              lowlevel.mfcc.cov.0.0
+              lowlevel.erbbands.var.6
+              tonal.hpcp.var.6
+              lowlevel.erbbands.median.0
+              tonal.hpcp.dvar.25
+              tonal.hpcp.dvar2.0
+              lowlevel.mfcc.cov.3.3
+              tonal.hpcp.var.0
+              lowlevel.erbbands.max.7
+              tonal.hpcp.var.7
+              lowlevel.gfcc.cov.6.6
+              tonal.hpcp.dvar2.21
+              tonal.hpcp.median.15
+              lowlevel.spectral_contrast_coeffs.dmean.4
+              lowlevel.melbands.var.20
+              lowlevel.melbands_kurtosis.median
+              lowlevel.spectral_contrast_coeffs.median.1
+              lowlevel.spectral_contrast_valleys.dvar2.2
+              lowlevel.barkbands.var.18
+              tonal.hpcp.dvar.23
+              lowlevel.gfcc.mean.10
+              lowlevel.spectral_contrast_coeffs.dmean2.1
+              tonal.hpcp.median.30
+              tonal.hpcp.var.12
+Ignored:
+              Artist
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 32
+Within cluster sum of squared errors: 1937.2578680257698
+
+Initial starting points (random):
+
+Cluster 0: 334.315948,480.280792,0.00029,0.028,0.000636,0.046715,0.002083,347.348602,0.009795,0.109918,0.01946,0.077429,0.081174,0.328973,0.029988,2.221745,0.011198,0.05411,0.04477,0.010075,0.069523,0.04885,0.022831,0.001129,0,0.160708,0,0.050962,0.000363,0.037166,0.010364,0.093564,0.007119,230.057053,0.020345,0.007956,0.155105,176560.4375,0.066736,0,0,0.043391,0.038699,5.37487,1135533.25,0.068097,0.057762,0.073804,-0.776857,0.000001,0.081109,0.09353,495.874603,0.111335,1.538963,0.000001,0.052201,0.075033,0.00003,0.017366,0.064114,340916.46875,0.012644,0.00073,0,0.009609,0.000043,0.075511,0.012058,0.000085,0.105282,0.018786,0.022894,12044.160156,699.839111,0.084376,0.001817,0.016039,0.099292,519.320435,0.0982,306.489929,0.042822,389.645111,0.077834,0.189603,0.024849,0,6.791224,-0.713483,0.412072,0,0.015051,-16.591623,0.069807,0.081053,0.047037
+Cluster 1: 289.686005,434.728119,0.000221,0.143237,0.000531,0.140278,0.001732,213.985062,0.047575,0.018847,0.017159,0.122344,0.013437,0.365832,0.027732,0.664531,0.045683,0.052175,0.030568,0.052645,0.098463,0.062645,0.024581,0.000766,0,0.548918,0,0.105646,0.000185,0.091002,0.018878,0.105475,0.006221,171.81813,0.017564,0.017569,0.071941,120726.101562,0.065236,0,0,0.048434,0.035115,4.494121,706692,0.118961,0.021125,0.105933,-0.796912,0.000001,0.09521,0.028711,264.539154,0.014567,0.254215,0.000001,0.053132,0.014829,0.000001,0.034674,0.067303,236944,0.032911,0.000398,0,0.031426,0.000165,0.028274,0.017876,0.000653,0.107453,0.035901,0.024749,10326.47168,118.408607,0.039344,0.644377,0.036994,0.096101,425.269958,0.036661,757.352661,0.072202,238.307739,0.069101,0.017549,0.021323,0,9.138977,-0.790222,0.254225,0,0.036413,-13.877704,0.079285,0.017551,0.038928
+Cluster 2: 129.263931,189.054626,0.000206,0.023068,0.000515,0.051931,0.001423,61.147911,0.002381,0.048809,0.015836,0.112899,0.011942,0.188147,0.025555,1.752075,0.003532,0.04648,0.054486,0.007782,0.068574,0.097645,0.020615,0.000912,0,0.205236,0,0.034881,0.000354,0.043583,0.004963,0.069836,0.006917,253.824951,0.005244,0.002272,0.020484,45656.945313,0.056951,0,0,0.042984,0.03462,2.536272,805523.75,0.076321,0.105613,0.067968,-0.765242,0,0.043781,0.112328,167.854538,0.01223,5.61786,0.000003,0.051812,0.003275,0.000025,0.018263,0.122683,92914.921875,0.010668,0.000706,0,0.003592,0.000075,0.011589,0.00953,0.000101,0.098062,0.025022,0.01537,13642.650391,1459.612793,0.083534,0.002955,0.008835,0.055771,655.806641,0.042528,882.367981,0.139324,388.683228,0.053297,0.029203,0.022392,0,9.830287,-0.652871,0.149548,0,0.017755,-3.330352,0.067331,0.008939,0.051416
+Cluster 3: 346.663086,529.617004,0.00026,0.10187,0.000638,0.082536,0.00211,222.288864,0.060587,0.030594,0.018863,0.096679,0.015313,0.632813,0.030674,0.725276,0.056893,0.056516,0.035346,0.036632,0.106325,0.083205,0.036894,0.001108,0,0.375715,0,0.1021,0.000302,0.082653,0.034423,0.105833,0.007326,205.462753,0.044932,0.031422,0.10638,140554.828125,0.077357,0,0,0.057945,0.039848,3.919512,848389.0625,0.100241,0.022879,0.102433,-0.794767,0.000001,0.112643,0.039335,364.35553,0.018911,1.09234,0.000001,0.078605,0.019572,0.000007,0.065619,0.08616,308824.625,0.047072,0.000603,0,0.062273,0.000381,0.0579,0.020647,0.00058,0.094713,0.048374,0.037435,9658.798828,82.86792,0.042879,0.422974,0.035899,0.111855,702.695374,0.03663,285.777802,0.043632,299.670471,0.059218,0.018632,0.024258,0,8.453734,-0.748769,0.605708,0,0.032618,-8.241572,0.092064,0.021881,0.05004
+Cluster 4: 373.344788,556.640381,0.000671,0.049824,0.001451,0.065083,0.002038,539.098999,0.00078,0.034877,0.023147,0.094258,0.019054,0.68989,0.035663,1.540511,0.00101,0.053673,0.154842,0.017505,0.060994,0.060655,0.001148,0.000948,0,4.095148,0,0.17394,0.000938,0.116042,0.013504,0.05434,0.003857,255.064682,0.00126,0.01481,0.205978,253052.109375,0.068337,0,0,0.052921,0.035909,32.675373,1357327.875,0.124451,0.000813,0.163943,-0.794538,0,0.216863,0.019506,736.361023,0.021109,19.712826,0,0.095026,0.004052,0.000002,0.018974,0.092679,469775.03125,0.12483,0.001874,0,0.001377,0.000097,0.049842,0.020963,0.006278,0.077169,0.106866,0.001827,18119.724609,515.019104,0.027031,1.184348,0.048434,0.22769,1329.915527,0.173778,429.439423,0.035651,256.367371,0.057819,0.001541,0.022632,0,76.56295,-0.734049,0.627861,0,0.043712,-5.59892,0.082488,0.00423,0.012415
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                              Cluster#
+Attribute                                       Full Data            0            1            2            3            4
+                                                 (1846.0)      (261.0)      (540.0)      (340.0)      (357.0)      (348.0)
+==========================================================================================================================
+lowlevel.spectral_centroid.dmean                 306.7254      256.929     333.3983     247.0035     270.5857      398.107
+lowlevel.spectral_centroid.dmean2                470.8131     393.3398     513.6127     376.7676     413.5148     613.1686
+lowlevel.spectral_contrast_coeffs.dvar.5           0.0004       0.0004       0.0003       0.0004       0.0004       0.0005
+tonal.hpcp.dvar2.18                                0.0921       0.0631       0.1152       0.0732       0.0795       0.1096
+lowlevel.spectral_contrast_coeffs.dvar2.5          0.0009       0.0009       0.0008       0.0009       0.0009       0.0012
+tonal.hpcp.dvar2.17                                 0.092       0.0719       0.1171       0.0682       0.0728       0.1112
+lowlevel.spectral_contrast_coeffs.dvar2.3          0.0018       0.0018       0.0016       0.0018       0.0018       0.0021
+lowlevel.barkbands_spread.dvar2                  222.6654     163.9588     234.6478     158.4467     186.2664     348.1848
+tonal.hpcp.median.19                               0.0341       0.0108       0.0449       0.0384       0.0399       0.0246
+tonal.hpcp.var.30                                  0.0527        0.071       0.0498       0.0347       0.0639       0.0496
+lowlevel.spectral_contrast_coeffs.dmean.5          0.0205       0.0199       0.0194       0.0201       0.0202       0.0231
+tonal.hpcp.dvar2.7                                 0.1019       0.0872       0.1219       0.0933       0.0717       0.1213
+tonal.hpcp.median.1                                0.0433       0.1087        0.045       0.0273       0.0204       0.0308
+lowlevel.spectral_contrast_valleys.dvar2.1         0.5182       0.4091       0.4746       0.4169       0.4441        0.843
+lowlevel.spectral_contrast_coeffs.dmean2.5         0.0327       0.0318       0.0312       0.0321       0.0322       0.0366
+lowlevel.erbbands.median.4                         2.7229        2.783       3.0104       2.8394       2.2386       2.6145
+tonal.hpcp.median.18                               0.0383       0.0131         0.05       0.0416       0.0453       0.0288
+lowlevel.spectral_contrast_coeffs.dmean2.3         0.0513       0.0511       0.0496        0.051       0.0518        0.054
+tonal.hpcp.var.1                                    0.055       0.0985       0.0531       0.0474       0.0324       0.0559
+tonal.hpcp.dvar.18                                 0.0351       0.0228        0.043       0.0289        0.032       0.0412
+tonal.hpcp.dvar2.12                                0.0872       0.0631       0.1037       0.0837       0.0665       0.1043
+tonal.hpcp.dvar2.28                                0.0718       0.0504       0.0844       0.0786        0.047       0.0869
+tonal.hpcp.median.13                               0.0349       0.0178       0.0424       0.0657       0.0149       0.0263
+lowlevel.spectral_contrast_coeffs.dvar2.4           0.001        0.001       0.0009        0.001        0.001       0.0013
+lowlevel.melbands.var.13                                0            0            0            0            0            0
+lowlevel.erbbands.median.2                         1.6409       1.5534        1.855        1.353       1.3411        1.963
+lowlevel.melbands.var.25                                0            0            0            0            0            0
+tonal.hpcp.dvar2.10                                0.1042         0.09       0.1257       0.0695       0.0969        0.123
+lowlevel.erbbands_flatness_db.dvar                 0.0004       0.0004       0.0003       0.0004       0.0004       0.0007
+tonal.hpcp.dvar2.23                                0.0969       0.0862       0.1132        0.081       0.0799       0.1128
+tonal.hpcp.median.9                                0.0455       0.0454       0.0538        0.015       0.0745       0.0329
+tonal.hpcp.dvar2.13                                0.0862       0.0625       0.1038       0.0835       0.0634       0.1024
+lowlevel.gfcc.icov.5.5                             0.0086       0.0083       0.0096       0.0078       0.0081       0.0083
+lowlevel.gfcc.cov.8.8                            179.8411     183.6971     154.0428     190.5442      191.041     195.0345
+tonal.hpcp.median.34                               0.0398       0.0161       0.0465       0.0635       0.0316       0.0325
+tonal.hpcp.median.10                               0.0428       0.0406       0.0515       0.0143       0.0693       0.0317
+tonal.hpcp.dvar2.33                                0.1203       0.1045       0.1303       0.1068       0.1083       0.1422
+lowlevel.spectral_centroid.dvar               150656.3755  117172.8884  150806.2148  114035.0807  128211.9539  234340.7883
+lowlevel.spectral_contrast_coeffs.dmean2.2         0.0656       0.0646       0.0643       0.0643       0.0659       0.0693
+lowlevel.melbands.var.27                                0            0            0            0            0            0
+lowlevel.melbands.var.19                                0            0            0            0            0            0
+lowlevel.spectral_contrast_coeffs.dmean.1          0.0489       0.0465       0.0488        0.047       0.0482       0.0534
+lowlevel.spectral_contrast_coeffs.dmean2.4         0.0371       0.0365       0.0356       0.0365       0.0371       0.0405
+lowlevel.barkbands_skewness.var                    6.2535       5.0096       4.4045       5.0496       4.4591      13.0723
+lowlevel.spectral_spread.dmean2               919109.5824  831533.7619  882888.0291  858579.2464  868672.8124 1151877.3096
+tonal.hpcp.dvar2.8                                 0.1006       0.0837       0.1236       0.0804       0.0792       0.1192
+tonal.hpcp.median.27                                0.031       0.0176       0.0361       0.0631       0.0111       0.0221
+tonal.hpcp.dvar2.9                                 0.1095       0.0958       0.1318       0.0756       0.0993       0.1285
+lowlevel.spectral_contrast_coeffs.median.3        -0.7955      -0.7845      -0.8054      -0.7849      -0.7857      -0.8086
+lowlevel.barkbands.var.15                               0            0            0            0            0            0
+tonal.hpcp.dvar2.35                                0.1242       0.1232       0.1367       0.1051       0.1015       0.1472
+tonal.hpcp.var.27                                   0.039       0.0241       0.0385       0.0736       0.0187       0.0379
+lowlevel.erbbands_spread.dvar2                   329.4239     251.9935     309.5683     249.6452     283.3558     543.5112
+tonal.hpcp.median.0                                0.0472       0.1232       0.0472       0.0305       0.0219       0.0324
+lowlevel.barkbands_kurtosis.median                 2.9287       2.7168       2.0102       2.9093       2.5628       4.9071
+lowlevel.barkbands.var.13                               0            0            0            0            0            0
+tonal.hpcp.dvar2.26                                0.0696       0.0488       0.0843       0.0609       0.0548       0.0859
+tonal.hpcp.median.31                               0.0429       0.0492       0.0474       0.0149       0.0658       0.0351
+lowlevel.barkbands.var.6                                0            0            0            0            0            0
+tonal.hpcp.var.3                                   0.0481       0.0335       0.0488       0.0397        0.065       0.0487
+lowlevel.silence_rate_60dB.var                     0.0788       0.0824       0.0664       0.0848       0.0784       0.0898
+lowlevel.spectral_centroid.dvar2              325347.1918  250956.4773  328616.7484  242758.9981  273229.2863  510222.1746
+tonal.hpcp.var.10                                  0.0532       0.0599       0.0546       0.0231       0.0762       0.0516
+lowlevel.erbbands_flatness_db.dvar2                0.0009       0.0008       0.0006       0.0009       0.0008       0.0014
+lowlevel.melbands.var.31                                0            0            0            0            0            0
+tonal.hpcp.median.3                                0.0365       0.0154       0.0459       0.0304       0.0502       0.0297
+lowlevel.barkbands.median.10                       0.0002       0.0002       0.0003       0.0002       0.0003       0.0001
+tonal.hpcp.var.33                                  0.0519       0.0328       0.0502       0.0657       0.0534       0.0539
+lowlevel.pitch_salience.dvar2                      0.0195       0.0164       0.0202        0.016       0.0169       0.0269
+lowlevel.melbands.median.1                         0.0014       0.0012       0.0015       0.0011       0.0012       0.0017
+tonal.hpcp.dvar2.6                                 0.0981       0.0827       0.1158       0.0929       0.0695       0.1164
+tonal.hpcp.var.9                                   0.0567       0.0671        0.057       0.0262       0.0799       0.0542
+tonal.hpcp.median.12                               0.0357       0.0179       0.0423       0.0691        0.016       0.0266
+lowlevel.mfcc.cov.0.0                          12434.3288   12362.1134   11238.5917   13029.5886   12565.4211   13627.8861
+lowlevel.erbbands.var.6                          574.1528     623.3372     372.4601      794.146     630.9497      577.034
+tonal.hpcp.var.6                                   0.0458       0.0447       0.0458       0.0717       0.0229        0.045
+lowlevel.erbbands.median.0                         0.2618       0.2322       0.2537        0.193       0.3057       0.3188
+tonal.hpcp.dvar.25                                 0.0371       0.0298       0.0432       0.0273       0.0358       0.0439
+tonal.hpcp.dvar2.0                                 0.1265       0.1338       0.1398        0.105       0.0982       0.1501
+lowlevel.mfcc.cov.3.3                            483.0392     503.2508     374.7497      535.626     539.4534     526.6649
+tonal.hpcp.var.0                                   0.0608        0.111       0.0563        0.057       0.0354       0.0599
+lowlevel.erbbands.max.7                          398.0568     357.8065     341.7314     478.7961     441.8476     391.8395
+tonal.hpcp.var.7                                   0.0497       0.0515       0.0516       0.0725       0.0243       0.0494
+lowlevel.gfcc.cov.6.6                            275.2822     283.7614     228.0111     297.0272     291.7159     304.1704
+tonal.hpcp.dvar2.21                                0.0812       0.0786       0.0984       0.0704        0.054       0.0947
+tonal.hpcp.median.15                                0.042       0.0709       0.0498       0.0237       0.0366       0.0319
+lowlevel.spectral_contrast_coeffs.dmean.4          0.0229       0.0227       0.0216       0.0227       0.0231       0.0253
+lowlevel.melbands.var.20                                0            0            0            0            0            0
+lowlevel.melbands_kurtosis.median                 11.9929       9.6107      11.7668       9.1598       9.8156      19.1322
+lowlevel.spectral_contrast_coeffs.median.1        -0.7451      -0.7273       -0.767      -0.7249      -0.7306      -0.7593
+lowlevel.spectral_contrast_valleys.dvar2.2         0.4589       0.3688       0.3954       0.3777       0.3911       0.7738
+lowlevel.barkbands.var.18                               0            0            0            0            0            0
+tonal.hpcp.dvar.23                                 0.0379       0.0336       0.0439       0.0314       0.0313       0.0448
+lowlevel.gfcc.mean.10                            -13.6482     -12.5932     -15.2814     -12.8679     -12.4453     -13.9014
+lowlevel.spectral_contrast_coeffs.dmean2.1         0.0797       0.0755       0.0805       0.0762       0.0782       0.0865
+tonal.hpcp.median.30                               0.0414       0.0497       0.0459       0.0153       0.0617        0.033
+tonal.hpcp.var.12                                  0.0436        0.024       0.0425       0.0725       0.0323       0.0435
+
+
+
+
+Time taken to build model (full training data) : 0.1 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       261 ( 14%)
+1       540 ( 29%)
+2       340 ( 18%)
+3       357 ( 19%)
+4       348 ( 19%)
+
+
+Class attribute: Artist
+Classes to Clusters:
+
+   0   1   2   3   4  <-- assigned to cluster
+   6  12   3   7  14 | Artifyber
+   3  26   0   1  12 | Boom Kitty
+   4  27   4  10  14 | BOSSFIGHT
+   3  74   2   4   6 | Camellia Official
+  13   8  15   9  14 | CaravanPalace
+  18   6  16   4  20 | Daft Punk
+   1   7  11  10   7 | Dex Arson
+   2   1   5   2   9 | dj-Nate
+  24  14  15  46   0 | DJVI
+  19  16   7  22   6 | F-777
+   0   3   5   6   1 | Hinkik
+   3  14  21   7   3 | K1llbot
+   1   4   6   7   6 | Kotori
+  12  29   3  14  36 | MDK
+   2  20   2   6  14 | meganeko
+   0   1   4   4  36 | Mittsies
+   2  26   3   1   4 | Neraki
+  27  12  26  31  31 | OfficialPandaEyes
+  26   6  54  34   6 | Riff Kitten
+   7  14   1  15  20 | ShirobonTV
+   7  33  22  20  12 | Teminite
+   7   3  30  12   4 | TheFatRat
+   9  35  16  21   3 | V-4
+  17   4  17  17   0 | Vicetone
+  31 123  36  29  62 | Waterflame
+  11   0   7   3   0 | Xomu
+   6  22   9  15   8 | Xtrullor
+
+Cluster 0 <-- OfficialPandaEyes
+Cluster 1 <-- Waterflame
+Cluster 2 <-- Riff Kitten
+Cluster 3 <-- DJVI
+Cluster 4 <-- MDK
+
+Incorrectly clustered instances :	1560.0	 84.507  %
+

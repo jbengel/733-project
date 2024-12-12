@@ -1,1 +1,5 @@
-Essentia			https://github.com/MTG/essentia
+Essentia Github					https://github.com/MTG/essentia
+Essentia binaries				https://essentia.upf.edu/extractors/
+Essentia json to csv			https://github.com/MTG/essentia/blob/master/src/examples/python/json_to_csv.py
+
+In-paper references are as cited
